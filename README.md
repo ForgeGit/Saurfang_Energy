@@ -68,14 +68,16 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 
 ## Current Understanding
 
-It is usually agreed upon that out of all the 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of it, and in order of "most to least BP generation", the list would go something like this:
+It is usually agreed upon that out of all the 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of BP.
+
+In order of "most to least BP generation", the list would go like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
 Attempts at accurately measuring BP generation usually rely on visualizing the boss energy bar in-game, which updates roughly every 3s, and serves the purpose of ground truth or real value of reference.
 
-<img src="_img/Saurfang_energy_bar_ingame.jpg" />Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
+<img src="_img/Saurfang_energy_bar_ingame.jpg" />
+
+*Figure 3: In yellow, the energy bar (BP) of Saurfang seen in-game from different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.*
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
-
-
