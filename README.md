@@ -38,7 +38,7 @@ All of the previous sources mentioned coincide more or less on the following:
         - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" />
         
-        *Figure 1: Rune of Blood and a melee hit.*
+        *Figure 1: Rune of Blood and a melee hit - they are different*
 
 
   2. In Heroic mode BP generation seems much faster compared to normal mode.
@@ -69,7 +69,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
       
 <img src="_img/Forum_comment_2010.png" />
 
-*Figure 2: On the following document, this guy argument from 2010 will be utterly destroyed.*
+*Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
 ## 📅Current Understanding
 
