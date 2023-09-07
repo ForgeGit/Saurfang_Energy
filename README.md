@@ -28,7 +28,8 @@ Common third-hand sources of information such as [WoWhead Comments](https://www.
     - Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage all count towards BP generation.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
         - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
-<img src="_img/BloodRune_damage.png" />Figure 1: Rune of Blood and a melee hit.
+        <img src="_img/BloodRune_damage.png" />
+        Figure 1: Rune of Blood and a melee hit.
 
 
 - In Heroic mode BP generation seems much faster compared to normal mode.
@@ -69,4 +70,3 @@ Attempts at accurately measuring BP generation usually rely on visualizing the b
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
-
