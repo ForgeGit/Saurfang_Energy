@@ -1,21 +1,23 @@
 # Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
 
 We lack a precise, catch-all method to explain and measure energy generation on Saurfang (final raid boss of the Lower Spire at Icecrown Citadel). 
-
 We have a general idea of how it works, but we cannot explain it or measure in detail.
 
-For all intend and purposes of this document, I will refer to Energy on Saurfang as Blood Power or BP 
-
+For all intents and purposes of this document, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
 ## Introduction
 
-Common thirdhand sources of information such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), plus "common knowledge" from Class Discords, [Blizzard Forums from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) and PTR experience, all coincide more or less on the following:
+Common third-hand sources of information such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), plus "common knowledge" from Class Discords, [Blizzard Forums from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) and PTR experience, all coincide more or less on the following:
 
 - Only spell-related damage should count towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage all count towards BP generation.
-    - Melee damage from the boss on the tanks should not contribute towards BP generation (unless it is a Rune of Blood hit).
-    
+    - Melee damage from the boss on the tanks should not contribute towards BP generation. 
+        - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
+<img src="_img/BloodRune_damage.png" />
+Figure 1: Rune of Blood and a melee hit.
+
+
 - In Heroic mode BP generation seems much faster compared to normal mode.
 
 There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. Specifically: 
@@ -42,7 +44,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
           - (E.g. Two consecutive ticks of 6,500 damage each giving 2 and 3 BP respectively)
       
 <img src="_img/Forum_comment_2010.png" />
-Figure 1: On the following document, this guy argument from 2010 will be utterly destroyed. 
+Figure 2: On the following document, this guy argument from 2010 will be utterly destroyed. 
 
 ## Current Understanding
 
@@ -53,5 +55,7 @@ It is usually agreed that out of all the 4 damaging abilities in the encounter t
 Attempts at accurately measuring BP generation usually rely on visualizing the boss energy bar in-game, which updates roughly every 3s, and serves the purpose of ground truth or real value of reference.
 
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />
-Figure 2: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
+Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
+
+However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
 
