@@ -26,8 +26,8 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 ## 🐗Introduction
 
 ### **Introduction Tl,dr:** <br />
-Four abilities generate BP. Heroic mode Saurfang generates more BP (or faster BP) than normal mode Saurfang.<br />
-That is all we really think we know is true.
+> Four abilities generate BP. Heroic mode Saurfang generates more BP (or faster BP) than normal mode Saurfang.<br />
+> That is all we really think we know is true.
 
 Commonly what we know about WoW game mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
