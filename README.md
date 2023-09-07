@@ -74,10 +74,36 @@ In order of "most to least BP generation", the list would go like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
-Attempts at accurately measuring BP generation usually rely on visualizing the boss energy bar in-game, which updates roughly every 3s, and serves the purpose of ground truth or real value of reference.
+A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability hit an unit and assume each of those hits gave a "fixed" amount of BP.
+
+<img src="_img/Saurfang_Energy_1.jpg" />
+
+*Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP*
+
+This method would normally value Boiling Blood at around 2-3 BP, Blood Nova at 2-3 BP, and Rune of Blood at around 1-3 BP. Blood Beast melee BP generation being an outlier at 2-18 BP, with varying explanation and causes for it. 
+
+This method however tends to not flawlessly work with all logs, and relies in adjusting your values to make them add up as close as possible to 100, with no clear rule or explanation that can be extrapolated to other logs.
+
+This very basic method tends to either fall short of estimating 100 BP, or going well past 100 BP, by the time of mark first being casted by Saurfang.
+
+A more accurate analysis of energy generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s, and can be used as our real value of reference.
 
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />
 
 *Figure 3: In yellow, the energy bar (BP) of Saurfang seen in-game from different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.*
 
+Using this method, two Saurfang Heroic (25 man and 10 man) logs were analyzed next to their recordings by `overrated_` and `oozeness`.
+    - Joardee <Fusion> Saurfang Heroic 25 man:
+        - Log 1: https://classic.warcraftlogs.com/reports/4aGYdP3kyBNchRQf#fight=10&type=damage-taken&options=0&by=ability
+        - Vod 1: https://youtu.be/eVM0n_3IUAQ?t=894
+        
+    - Oozeness Saurfang Heroic 10 man: 
+        - Log 2: https://classic.warcraftlogs.com/reports/ZWbAJC2nLcHRkhdG#translate=true
+        - Vod 2: https://www.youtube.com/watch?v=BYIly4KoEqY&ab_channel=Oozeness 
+
+<img src="_img/Fightclub_cooking.jpg" />
+
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
+
+
+
