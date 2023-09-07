@@ -83,7 +83,8 @@ With the upcoming ICC re-release, having a better understanding of this mechanic
 ## 📅Previous Understanding
 
 ### **Previous Understanding Tl,dr:** <br />
-> BP generation goes like: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood
+> BP generation goes like: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood <br /> 
+> All previous known values for each ability are a lie.
 
 It is usually agreed upon that from the four (4) abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
 
