@@ -176,7 +176,7 @@ If we continue to do this for several points using Log #1 (Joardee) and Log #2 (
 If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other log almost perfectly. 
 
 <img src="_img/plot_saurfang_example_2.png" /> <br />
-*Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ## 🔮Results 
 
