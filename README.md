@@ -74,7 +74,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 
 ## 📅Current Understanding
 
-It is usually agreed upon that out of all the 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of BP.
+It is usually agreed upon that of all 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of BP.
 
 In order of "most to least BP generation", the list would go like this:
 
@@ -88,13 +88,15 @@ A common and simple method used to quickly give each ability a value or "weighti
 
 *Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP*
 
-This method would normally value Boiling Blood at around 2-3 BP, Blood Nova at 2-3 BP, and Rune of Blood at around 1-3 BP. Blood Beast melee BP generation being an outlier at 2-18 BP, with varying explanations and causes for it. 
+This method would normally value Boiling Blood at 2-3 BP, Blood Nova at 2-3 BP, Rune of Blood at 1-3 BP, and Blood Beast melee at 2-18 BP. The wide range for Blood Beasts has varying explanations and causes for it, such as deaths or how much damage was dealt. 
 
 This method tends to not flawlessly work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and either falling short of estimating 100 BP, or going well past 100 BP by the time the first mark goes out.
 
 ### B. In-Game Energy Bar Measurement
 
-A more accurate analysis of energy generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s. This value directly provided by the game (but not registered in logs) can be used as our real value of reference.
+A more accurate analysis of BP generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s.
+
+This value directly provided by the game (but not registered in logs) can be used as our real value of reference.
 
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />
 
