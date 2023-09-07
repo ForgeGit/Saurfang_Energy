@@ -27,7 +27,7 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
-More recently, with the first PTR test of ICC, we can now use detailed logs and video recordings to look into the specifics of BP generation .
+More recently, with the first PTR test of ICC, we can now use detailed logs and video recordings to look into the specifics of BP generation.
 
 All of the previous sources mentioned coincide more or less on the following:
 
@@ -64,8 +64,9 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 - Exactly how much Blood Energy does a Boiling Blood tick contribute? 
     - It is said boiling blood generates somewhere around 2 and 4 BP. 
         - [Old websites](https://typehforheals.com/raid-strategies/wrath-of-the-lich-king/icecrown-citadel/deathbringer-saurfang/#:~:text=Besides%20Blood%20Nova%2C%20Saurfang%20will%20be%20casting%20Boiling,or%20Divine%20Shield%20this%20should%20be%20done%20immediately), [wordpress pages](https://dontstandinthefire.wordpress.com/tactics/icecrown-citadel/deathbringer-saurfang-10-man/) and even WoWHead comments from the past give us some numbers that usually disagree with each other.
-    - It is also said it generates more BP based on how much damage each tick hit for. However, we know from looking at videos + log simultaneously [1] that the same boiling blood ticking for the same amount of damage can give both 2 BP and 3 BP. 
-          - (i.e. Two consecutive ticks of 6,500 damage each giving 2 and 3 BP respectively)
+    - It is also said it generates more BP based on how much damage each tick hit for. 
+        - However, we know from looking at videos + log simultaneously [1] that the same boiling blood ticking for the same amount of damage can give both 2 BP and 3 BP. 
+        - i.e. Two consecutive ticks of 6,500 damage each giving 2 and 3 BP respectively.
       
 <img src="_img/Forum_comment_2010.png" />
 
@@ -122,6 +123,3 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
-
-
-
