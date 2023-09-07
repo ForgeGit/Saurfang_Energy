@@ -149,10 +149,10 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would lo
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
 
-The weightings proposed from using video recordings (which include Blood Nova misses as generating BP) would "overestimate" 100 BP on our previous example. <br />
-In other words, going off the values recorded in-game, Saurfang should have casted Mark some seconds earlier than what he did.
+The weightings proposed from using video recordings (which include Blood Nova misses as sometimes generating BP) would "overestimate" our previous log estimation of 104 BP on Figure 4. <br />
+In other words, going off the values recorded in-game, Saurfang should have casted Mark several seconds earlier than what he actually did.
 
-<img src="_img/Saurfang_Energy_3.png" />
+<img src="_img/Saurfang_Energy_3_2.png" />
 *Figure 8: The estimation that works on one log, no longer works on the previous log. Sadge*
 
 ## 🔨The 2,500 damage methodology
