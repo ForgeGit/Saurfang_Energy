@@ -38,8 +38,7 @@ All of the sources previously mentioned coincide more or less on the following:
           - They are all "spells casted by" Saurfang that deal physical type damage.
       - Melee damage from the boss on the tanks should not contribute towards BP generation. 
           - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
-        <img src="_img/BloodRune_damage.png" />
-        
+        <img src="_img/BloodRune_damage.png" /> <br />
           *Figure 1: Rune of Blood and a melee hit - they are different*
 
 
@@ -70,12 +69,11 @@ There are, however, conflicting or vague attempts at explaining the underlying m
         - However, we know from looking at videos + log simultaneously [1] that the same boiling blood ticking for the same amount of damage can give both 2 BP and 3 BP. 
         - i.e. Two consecutive ticks of 6,500 damage each giving 2 and 3 BP respectively.
       
-<img src="_img/Forum_comment_2010.png" />
-
+<img src="_img/Forum_comment_2010.png" /> <br />
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
 ## 📅Current Understanding
-**Current Understanding Tl,dr: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood (?)** 
+**Current Understanding Tl,dr:** BP generation is Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood (?)
 
 It is usually agreed upon that out of all four (4) damaging abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
 
@@ -89,21 +87,18 @@ We know this and we can also verify it by doing one of the following measurement
 
 A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability dealt damage and assume each of those hits gave a "fixed" amount of BP.
 
-<img src="_img/Saurfang_Energy_1.jpg" />
-
+<img src="_img/Saurfang_Energy_1.jpg" /> <br />
 *Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP*
 
 This method would normally place the value of Boiling Blood at 2-3 BP, Blood Nova at 2-3 BP, Rune of Blood at 1-3 BP, and Blood Beast melee at 2-18 BP (this wide range has varying explanations and causes for it, apparently explained by how "big" the hit was).
 
-<img src="_img/Saurfang_Energy_2.jpg" />
-
+<img src="_img/Saurfang_Energy_2.png" /> <br />
 *Figure 4: It works! Now try it with other logs, lmao.*
 
 The issue with this approach is that it won't work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and either falling short of estimating 100 BP, or going well past 100 BP by the time the first mark goes out.
 
-<img src="_img/plot_saurfang_example1.png" />
-
-*Figure 5: Estimated energy at the moment of first mark cast on all PTR logs (details of the sample in the figure and later in the document)*
+<img src="_img/plot_saurfang_example1.png" /> <br />
+*Figure 5: Estimated BP at the moment of first mark cast on all PTR logs using the weights on the table of Figure 4. "Beast" numbers specify which value was used for Blood Beast melee hits weightings. Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ### B. In-Game Energy Bar Measurement
 
@@ -111,9 +106,8 @@ A more accurate analysis of BP generation relies on visualizing the boss energy 
 
 This value directly provided by the game (but not registered in logs) can be used as our real value of reference.
 
-<img src="_img/Saurfang_energy_bar_ingame.jpg" />
-
-*Figure 4: In yellow, the energy bar (BP) of Saurfang seen in-game from different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.*
+<img src="_img/Saurfang_energy_bar_ingame.jpg" /> <br />
+*Figure 6: In yellow, the energy bar (BP) of Saurfang seen in-game from different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.*
 
 Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed along with to their recordings by `overrated_` and `oozeness`.
 
@@ -125,17 +119,41 @@ Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed al
       - Log #2: https://classic.warcraftlogs.com/reports/ZWbAJC2nLcHRkhdG#translate=true
       - Vod #2: https://www.youtube.com/watch?v=BYIly4KoEqY&ab_channel=Oozeness 
 
-<img src="_img/Fightclub_cooking.jpg" />
+<img src="_img/Fightclub_cooking.jpg" /> <br />
+*Figure 7: Two Fight Club discord members cooking. On the left, Naz with LOG #1. On the right, Oozeness with LOG #2.*
 
-*Figure 5: Two Fight Club discord members cooking. On the left, Naz with LOG #1. On the right, Oozeness with LOG #2.*
+However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several of caveats and conditions that do not always apply.
 
-However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weigthings, that rely in several of caveats and conditions that do not always apply.
-
-For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look like this:
+For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would look like this:
 
   - Boiling Blood tick: 2-3-4 BP
   - Blood Rune application: 1 BP (inconsistent)
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
+
+The weightings proposed from using video recordings (which include Blood Nova misses as generating BP) would "overestimate" 100 BP on our previous example. In other words, going off this calculation Saurfang should have already casted Mark.
+
+<img src="_img/Saurfang_Energy_3.png" />
+
+## 🔨The 2,500 damage methodology
+
+After sharing notes and ideas with `oozeness`, we came up with the following more generalized approach at estimating BP generation:
+
+
+Lets assume that BP is accumulated over time and it is not a rounded number as shown by the energy bar. (e.g. 0.53 energy, 3.10 energy, 7.9048 energy)
+
+Using logs and the in-game energy bar, we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that same time.
+
+<img src="_img/Saurfang_Energy_4.jpg" /> <br />
+*Figure 8: Illustrated example of how damage taken was estimated every time the energy bar updated (3s intervals).*
+
+If we continue to do this for several points with Log #1 (Joardee) and Log#2 (Oozeness), we get a number that approximates ~2,500 damage per BP.
+
+If we assume every **__2,500 damage = 1 energy__**, we can accurately match the values on both logs, and in every other log almost perfectly. 
+
+<img src="_img/plot_saurfang_example2.png" /> <br />
+*Figure 9: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. "Beast" numbers specify which value was used for Blood Beast melee hits weightings. Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+
+## 🔮Results 
 
