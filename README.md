@@ -12,9 +12,9 @@ In this document I explain why this approach works better than other alternative
 
 ## Preamble
 
-We lack a precise, catch-all method to explain and measure energy generation on Saurfang (final raid boss of the Lower Spire at Icecrown Citadel). 
+We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. 
 
-We have a general idea of how the mechanic works, but we cannot explain it or measure it in detail.
+We have a general idea of how the mechanic works based on its description, but we cannot explain it or measure it in detail.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
 
@@ -114,5 +114,3 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
-
-
