@@ -2,11 +2,11 @@
 
 ## **SUMMARY**
 ### **Tl;dr**
-`2,500 damage taken by the raid = ~1 Blood Power`, which can be decimal (e.g. 2.495 energy), and accumulates over time, would explain Saurfang energy generation mechanics.
+`2,500 damage taken = ~1 Blood Power`, which can be decimal (e.g 2.495 energy), and accumulates over time. This formula explains very well Saurfang energy generation mechanics.
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
-[1] Damage Taken by raiders, including pets and summons such as Army of the Death or Warlock pets. This includes Absorbs and Overkill values.
+[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets. Damage taken includes Absorbs and Overkill values.
 
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
@@ -14,7 +14,7 @@ In this document I explain why this approach works better than other alternative
 
 We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. 
 
-We have a general idea of how the mechanic works based on its description, but we cannot explain it or measure it in detail.
+We have a general idea of how the mechanic works based on its description, but we cannot precisely explain it or measure it in detail.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the energy generation mechanics of Deathbringer Saurfang.
 
@@ -25,11 +25,13 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 ## 🐗Introduction
 
-What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
+**Introduction Tl,dr:** Four abilities generate BP. Heroic mode Saurfang generates more BP than normal mode Saurfang. That is all we really think we know is true.
+
+Commonly what we know from some wow mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
 More recently, with the first PTR test of ICC, we can now use detailed logs and video recordings to look into the specifics of BP generation.
 
-All of the previous sources mentioned coincide more or less on the following:
+All of the sources previously mentioned coincide more or less on the following:
 
   1. Only spell-related damage should contribute towards BP generation
       - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
@@ -73,14 +75,17 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
 ## 📅Current Understanding
+**Current Understanding Tl,dr: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood (?)** 
 
-It is usually agreed upon that of all 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of BP.
+It is usually agreed upon that out of all four (4) damaging abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
 
 In order of "most to least BP generation", the list would go like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
-### A. Basic Measurement from logs
+We know this and we can also verify it by doing one of the following measurements.
+
+### A. Basic log measurement 
 
 A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability dealt damage and assume each of those hits gave a "fixed" amount of BP.
 
@@ -88,9 +93,17 @@ A common and simple method used to quickly give each ability a value or "weighti
 
 *Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP*
 
-This method would normally value Boiling Blood at 2-3 BP, Blood Nova at 2-3 BP, Rune of Blood at 1-3 BP, and Blood Beast melee at 2-18 BP. The wide range for Blood Beasts has varying explanations and causes for it, such as deaths or how much damage was dealt. 
+This method would normally place the value of Boiling Blood at 2-3 BP, Blood Nova at 2-3 BP, Rune of Blood at 1-3 BP, and Blood Beast melee at 2-18 BP (this wide range has varying explanations and causes for it, apparently explained by how "big" the hit was).
 
-This method tends to not flawlessly work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and either falling short of estimating 100 BP, or going well past 100 BP by the time the first mark goes out.
+<img src="_img/Saurfang_Energy_2.jpg" />
+
+*Figure 4: It works! Now try it with other logs, lmao.*
+
+The issue with this approach is that it won't work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and either falling short of estimating 100 BP, or going well past 100 BP by the time the first mark goes out.
+
+<img src="_img/plot_saurfang_example1.png" />
+
+*Figure 5: Estimated energy at the moment of first mark cast on all PTR logs (details of the sample in the figure and later in the document)*
 
 ### B. In-Game Energy Bar Measurement
 
@@ -125,3 +138,4 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
+
