@@ -2,18 +2,17 @@
 
 ## **SUMMARY**
 ### **Tl;dr**
-`2,500 damage taken = ~1 Blood Power`, which can be decimal (e.g 2.495 energy), and accumulates over time. This formula explains very well Saurfang energy generation mechanics.
+`2,500 damage taken = ~1 Blood Power`<br />
+BP can be decimal (e.g 7.495 BP), and it accumulates over time. This formula explains very well Saurfang energy generation mechanics.
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
-[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets. Damage taken includes Absorbs and Overkill values.
-
+[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets. Damage taken includes Absorbs and Overkill values. <br />
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
 ## 🌤Preamble
 
-We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. 
-
+We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. <br />
 We have a general idea of how the mechanic works based on its description, but we cannot precisely explain it or measure it in detail.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the energy generation mechanics of Deathbringer Saurfang.
