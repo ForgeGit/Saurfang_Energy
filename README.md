@@ -51,5 +51,5 @@ It is usually agreed that out of all the 4 damaging abilities in the encounter t
 Attempts at accurately measuring BP generation usually rely on visualizing the boss energy bar in-game, which updates roughly every 3s, and serves the purpose of ground truth or real value of reference.
 
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />
-
+Figure 2: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
