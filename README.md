@@ -27,7 +27,7 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 ### **Introduction Tl,dr:** <br />
 > Four abilities generate BP. Heroic mode Saurfang generates more BP (or faster BP) than normal mode Saurfang.<br />
-> That is all we really think we know is true.
+> That is all we thought was true until now.
 
 Commonly what we know about WoW game mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
@@ -79,7 +79,9 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
 ## 📅Current Understanding
-**Current Understanding Tl,dr:** BP generation is Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood (?)
+
+### **Current Understanding Tl,dr:** <br />
+> BP generation goes like: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood
 
 It is usually agreed upon that out of all four (4) damaging abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
 
@@ -143,6 +145,9 @@ The weightings proposed from using video recordings (which include Blood Nova mi
 <img src="_img/Saurfang_Energy_3.png" />
 
 ## 🔨The 2,500 damage methodology
+
+### **The 2,500 damage methodology Tl,dr:** <br />
+> 2,500 = 1 BP works better than numbers pulled out of our assess.
 
 After sharing notes and ideas with `oozeness`, we came up with the following more generalized approach at estimating BP generation:
 
