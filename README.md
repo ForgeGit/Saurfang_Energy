@@ -78,7 +78,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 <img src="_img/Forum_comment_2010.png" /> <br />
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
-With the upcoming ICC re-release, having a better understanding of how this mechanic work could potentially help raid teams progress faster the boss, specially with the potentially early tight DPS and healing checks it might have.
+With the upcoming ICC re-release, having a better understanding of this mechanic could potentially help raid teams on progression, specially with the potentially early tight DPS and healing checks it might have.
 
 ## 📅Previous Understanding
 
