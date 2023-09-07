@@ -152,7 +152,7 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would lo
 The weightings proposed from using video recordings (which include Blood Nova misses as sometimes generating BP) would "overestimate" our previous log estimation of 104 BP on Figure 4. <br />
 In other words, going off the values recorded in-game, Saurfang should have casted Mark several seconds earlier than what he actually did.
 
-<img src="_img/Saurfang_Energy_3_2.png" />
+<img src="_img/Saurfang_Energy_3_2.png" /><br />
 *Figure 8: The estimation that works on one log, no longer works on the previous log. Sadge*
 
 ## 🔨The 2,500 damage methodology
