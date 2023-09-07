@@ -31,7 +31,7 @@ More recently, with the first PTR test of ICC, we now have detailed log breakdow
 
 All of the previous sources mentioned coincide more or less on the following:
 
-- 1. Only spell-related damage should contribute towards BP generation
+  1. Only spell-related damage should contribute towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
         - They are all "spells casted by" Saurfang that deal physical type damage.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
@@ -41,7 +41,7 @@ All of the previous sources mentioned coincide more or less on the following:
         *Figure 1: Rune of Blood and a melee hit.*
 
 
-- 2. In Heroic mode BP generation seems much faster compared to normal mode.
+  2. In Heroic mode BP generation seems much faster compared to normal mode.
 
 There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. For instance: 
 
