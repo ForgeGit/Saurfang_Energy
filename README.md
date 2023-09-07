@@ -25,9 +25,11 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 ## Introduction
 
-What we know about BP generation commonly comes from sources of information and data such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of it coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords, or from the first PTR test of ICC.
+What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
-All of this sources coincide more or less on the following:
+More recently, with the first PTR test of ICC, we now hace detailed log breakdowns and detailed videos to look into BP generation specifics.
+
+All of the previous sources mentioned coincide more or less on the following:
 
 - Only spell-related damage should contribute towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
@@ -116,3 +118,4 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
+
