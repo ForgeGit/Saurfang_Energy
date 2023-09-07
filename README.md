@@ -184,7 +184,7 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 You should be able to check for your own logs with the following options. (Highlighted in blue) <br />
 The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
 
-<img src="_img/energy_yourself_2.jpg" /> <br />
+<img src="_img/energy_yourself_2.png" /> <br />
 *Figure 11: Example of how to filter and see the values that generate BP in logs* 
 
 ## 🔮Results 
