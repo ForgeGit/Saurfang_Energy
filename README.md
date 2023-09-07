@@ -25,7 +25,7 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 ## Introduction
 
-Common third-hand sources of information such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), plus "common knowledge" from Class Discords, [Blizzard Forums from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) and PTR experience, all coincide more or less on the following:
+Commonly used sources of information such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), plus "common knowledge" from Class Discords, [Blizzard Forums from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) and PTR experience, all coincide more or less on the following:
 
 - Only spell-related damage should contribute towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
