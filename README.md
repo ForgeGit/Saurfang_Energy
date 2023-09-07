@@ -7,7 +7,8 @@ BP can be decimal (e.g 7.495 BP), and it accumulates over time. This formula exp
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
-[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets. Damage taken includes Absorbs and Overkill values. <br />
+[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets.  <br />
+Damage taken includes Absorbs and Overkill values. <br />
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
 ## 🌤Preamble
@@ -15,7 +16,7 @@ In this document I explain why this approach works better than other alternative
 We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. <br />
 We have a general idea of how the mechanic works based on its description, but we cannot precisely explain it or measure it in detail.
 
-Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the energy generation mechanics of Deathbringer Saurfang.
+Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang.
 
 This approach can be used in logs uploaded to Warcraft Logs Classic to analyze which abilities contributed the most towards BP generation.
 
@@ -24,24 +25,31 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 ## 🐗Introduction
 
-**Introduction Tl,dr:** Four abilities generate BP. Heroic mode Saurfang generates more BP than normal mode Saurfang. That is all we really think we know is true.
+**Introduction Tl,dr:** Four abilities generate BP.  <br />
+Heroic mode Saurfang generates more BP than normal mode Saurfang.<br />
+That is all we really think we know is true.
 
-Commonly what we know from some wow mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
+Commonly what we know about WoW game mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
 More recently, with the first PTR test of ICC, we can now use detailed logs and video recordings to look into the specifics of BP generation.
 
 All of the sources previously mentioned coincide more or less on the following:
 
   1. Only spell-related damage should contribute towards BP generation
-      - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
-          - They are all "spells casted by" Saurfang that deal physical type damage.
+      - This includes:
+          - Boiling Blood (ID: 72385)
+          - Rune of Blood (ID: 72409)
+          - Blood Nova (ID: 72380)
+          - Blood Beast melee hits (ID: 1)
+      - These four (4) sources are all "spells casted by" Saurfang that deal physical type damage.
       - Melee damage from the boss on the tanks should not contribute towards BP generation. 
           - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" /> <br />
           *Figure 1: Rune of Blood and a melee hit - they are different*
 
-
   2. In Heroic mode BP generation seems much faster compared to normal mode.
+  
+  3. At 100 BP generated, Saurfang casts "Mark of the Fallen Champion" (ID: 72255), which you want to delay as much as possible by getting hit less by the four (4) abilities previously mention. 
 
 There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. For instance: 
 
