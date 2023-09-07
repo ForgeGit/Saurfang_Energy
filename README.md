@@ -10,7 +10,7 @@ In this document I explain why this approach works better than other alternative
 
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
-## Preamble
+## 🌤Preamble
 
 We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. 
 
@@ -23,7 +23,7 @@ This approach can be used in logs uploaded to Warcraft Logs Classic to analyze w
 Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
-## Introduction
+## 🐗Introduction
 
 What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
@@ -71,7 +71,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 
 *Figure 2: On the following document, this guy argument from 2010 will be utterly destroyed.*
 
-## Current Understanding
+## 📅Current Understanding
 
 It is usually agreed upon that out of all the 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of BP.
 
@@ -122,3 +122,4 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
+
