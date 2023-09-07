@@ -116,7 +116,7 @@ The issue with this approach is that it won't work with all logs, and relies in 
 This will usually result in the estimation either falling short of reaching 100 BP, or going well past 100 BP by the time the first mark goes out.
 
 <img src="_img/plot_saurfang_example1.png" /> <br />
-*Figure 5: Estimated BP at the moment of first mark cast on all PTR logs using the weights on the table of Figure 4. "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ### B. In-Game Energy Bar Measurement
 
