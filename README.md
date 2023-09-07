@@ -1,9 +1,9 @@
 # Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
 
 **Tl;dr:** 
-My theory is that 2,500 damage taken<sup>1</sup> from Saurfang generates ~1 energy point, which can be decimal and adds up over time.
+`2,500 damage taken<sup>1</sup> = ~1 Blood Power`, which can be decimal and adds up over time.
 
-I can prove this works better than other approaches to measure energy generation on Saurfang, and suggest energy generation is damage based, rather than "tick" or "cast" based.
+In here I prove this works better than other approaches to measure energy generation on Saurfang, and suggest energy generation is damage based, rather than "tick" or "cast" based.
 
 ## Preamble
 
@@ -68,4 +68,5 @@ Attempts at accurately measuring BP generation usually rely on visualizing the b
 Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
+
 
