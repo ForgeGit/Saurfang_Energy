@@ -178,5 +178,11 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
+You should be able to check for your own logs with the following options.<br />
+The damage taken should add up to at least 249k-ish for the next mark to go out.
+
+<img src="_img/energy_yourself.jpg" /> <br />
+*Figure 11: Selected the period of time between 0:00 and 0:55. At 0:55 the mark is casted* 
+
 ## 🔮Results 
 
