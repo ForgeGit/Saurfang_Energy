@@ -7,7 +7,8 @@ Blood Power can be decimal (e.g 7.495 BP), and it accumulates over time. This fo
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
-[1] Damage Taken by friendly units, including "pets" such as Army of the Death or Warlock pets.  <br />
+[1] Damage Taken by friendly units. <br />
+Friendly units include "pets" such as Army of the Death or Warlock summons.<br />
 Damage taken includes Absorbs and Overkill values. <br />
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
@@ -178,11 +179,27 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
-You should be able to check for your own logs with the following options.<br />
-The damage taken should add up to at least 249k-ish for the next mark to go out.
+### How can I check this?
 
-<img src="_img/energy_yourself.jpg" /> <br />
-*Figure 11: Selected the period of time between 0:00 and 0:55. At 0:55 the mark is casted* 
+You should be able to check for your own logs with the following options. (Highlighted in blue) <br />
+The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
+
+<img src="_img/energy_yourself_2.jpg" /> <br />
+*Figure 11: Example of how to filter and see the values that generate BP in logs* 
 
 ## 🔮Results 
 
+[WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually.]
+
+In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfang (Y-axis) for 3 scenarios:
+
+- 2,500 damage (damage after mitigation/block + absorbed damage + overkill) = 1 energy
+- Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
+- Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
+
+The 2,500 damage model explains extreme logs were we see mark going out super early (20s into the fight): <br/>
+https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
+
+It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs with a margin of +/- 1 BP. 
+
+More importantly, this method can be easily extrapolated to almost all logs.
