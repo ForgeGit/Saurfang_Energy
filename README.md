@@ -1,6 +1,7 @@
 # Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
 
-**Tl;dr:** 
+## **SUMMARY**
+### **Tl;dr**
 `2,500 damage taken by the raid = ~1 Blood Power`, which can be decimal (e.g. 2.495 energy), and accumulates over time.
 
 In this document I show my approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
@@ -113,3 +114,4 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
+
