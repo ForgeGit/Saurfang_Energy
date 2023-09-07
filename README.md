@@ -49,7 +49,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
     - An old comment suggests Absorbed damage would not count towards BP generation
     
         - A wowhead comment from the 18th December 2009 by 7103 on 2009/12/19 (Patch 3.3.0) says "he doesn't gain BP unless he actually deals damage, meaning a disc priest perma-bubbling our tank and our add kiters doing a stellar job resulted in him only having one mark up when he died."
-        - Patch 3.3.2 (2010-02-01): Mitigation abilities such as Spell holy powerwordshield [Power Word: Shield] will no longer prevent blood power generation.
+        - However, in a later patch, it reads: Patch 3.3.2 (2010-02-01): Mitigation abilities such as Spell holy powerwordshield [Power Word: Shield] will no longer prevent blood power generation.
     
 - Does "Mark" damage count towards BP generation?
     - It is suggested mark damage increases BP generation over time.
@@ -122,3 +122,5 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
+
+
