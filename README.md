@@ -1,7 +1,17 @@
 # Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
 
+**Tl;dr:** 
+My theory is that 2,500 damage taken<sup>1</sup> from Saurfang generates ~1 energy point, which can be decimal and adds up over time.
+
+I can prove this works better than other approaches to measure energy generation on Saurfang, and suggest energy generation is damage based, rather than "tick" or "cast" based.
+
+## Preamble
+
 We lack a precise, catch-all method to explain and measure energy generation on Saurfang (final raid boss of the Lower Spire at Icecrown Citadel). 
+
 We have a general idea of how it works, but we cannot explain it or measure in detail.
+
+Here I describe how using `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
 
 For all intents and purposes of this document, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
