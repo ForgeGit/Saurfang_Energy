@@ -100,7 +100,7 @@ We can sort of confirm this by doing one of the following measurements.
 A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability dealt damage and assume each of those hits gave a "fixed" amount of BP.
 
 <img src="_img/Saurfang_Energy_1.jpg" /> <br />
-*Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP.*
+*Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP. <br />https://classic.warcraftlogs.com/reports/a:4VrdMJn8ypFjC2zv#fight=3&type=damage-taken&start=784192&end=889217&options=0&by=ability*
 
 This method would normally place the value of abilities as:
 
@@ -109,8 +109,8 @@ This method would normally place the value of abilities as:
 - Rune of Blood at 1-3 BP
 - Blood Beast melee at 2-18 BP (the wide range has varying explanations and causes for it, apparently explained by how "big" or "hard" the hit was).
 
-<img src="_img/Saurfang_Energy_2.png" /> <br />
-*Figure 4: It works! Now try it with other logs, lmao.*
+<img src="_img/Saurfang_Energy_2_2.png" /> <br />
+*Figure 4: It works! Sort of. Now try it with other logs, lmao.*
 
 The issue with this approach is that it won't work with all logs, and relies in adjusting <sup>(read: optimizing)</sup> your values to make them add up as close as possible to 100, with no clear rule or explanation. <br />
 This will usually result in the estimation either falling short of reaching 100 BP, or going well past 100 BP by the time the first mark goes out.
