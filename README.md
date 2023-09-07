@@ -27,11 +27,11 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
-More recently, with the first PTR test of ICC, we now hace detailed log breakdowns and detailed videos to look into BP generation specifics.
+More recently, with the first PTR test of ICC, we now have detailed log breakdowns and detailed video evidence to look into BP generation specifics.
 
 All of the previous sources mentioned coincide more or less on the following:
 
-- Only spell-related damage should contribute towards BP generation
+-1. Only spell-related damage should contribute towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
         - They are all "spells casted by" Saurfang that deal physical type damage.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
@@ -41,7 +41,7 @@ All of the previous sources mentioned coincide more or less on the following:
         *Figure 1: Rune of Blood and a melee hit.*
 
 
-- In Heroic mode BP generation seems much faster compared to normal mode.
+-2. In Heroic mode BP generation seems much faster compared to normal mode.
 
 There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. For instance: 
 
@@ -79,6 +79,8 @@ In order of "most to least BP generation", the list would go like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
+### Basic Measurement
+
 A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability hit an unit and assume each of those hits gave a "fixed" amount of BP.
 
 <img src="_img/Saurfang_Energy_1.jpg" />
@@ -88,6 +90,8 @@ A common and simple method used to quickly give each ability a value or "weighti
 This method would normally value Boiling Blood at around 2-3 BP, Blood Nova at 2-3 BP, and Rune of Blood at around 1-3 BP. Blood Beast melee BP generation being an outlier at 2-18 BP, with varying explanation and causes for it. 
 
 This method however tends to not flawlessly work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and falling short of estimating 100 BP, or going well past 100 BP, by the time the first mark goes out.
+
+### In-Game Energy Bar Measurement
 
 A more accurate analysis of energy generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s, and can be used as our real value of reference.
 
@@ -118,4 +122,3 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
-
