@@ -153,7 +153,7 @@ In other words, going off the values recorded in-game, Saurfang should have cast
 
 ## 🔨The 2,500 damage methodology
 
-### **The 2,500 damage methodology Tl,dr:** <br /><br />
+### **The 2,500 damage methodology Tl,dr:** <br />
 > 2,500 dmg = 1 BP works better than numbers pulled out of our assess.
 
 After sharing notes and ideas with `oozeness`, we came up with the following more generalized approach at estimating BP generation:
