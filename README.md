@@ -1,9 +1,9 @@
 # Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
 
 **Tl;dr:** 
-`2,500 damage taken by the raid = ~1 Blood Power`, which can be decimal, and adds up over time.
+`2,500 damage taken by the raid = ~1 Blood Power`, which can be decimal (e.g. 2.495 energy), and accumulates over time.
 
-In here I prove this works better than other approaches to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
+In this document I show my approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
 [1] Damage Taken by raiders, including pets and summons such as Army of the Death or Warlock pets. This includes Absorbs and Overkill values.
 
@@ -15,9 +15,9 @@ We lack a precise, catch-all method to explain and measure energy generation on 
 
 We have a general idea of how the mechanic works, but we cannot explain it or measure it in detail.
 
-Here I describe how using `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
+Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
 
-For all intents and purposes of this document, I will refer to Energy on Saurfang as Blood Power or BP.
+For all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
 ## Introduction
@@ -25,17 +25,17 @@ For all intents and purposes of this document, I will refer to Energy on Saurfan
 Common third-hand sources of information such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), plus "common knowledge" from Class Discords, [Blizzard Forums from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) and PTR experience, all coincide more or less on the following:
 
 - Only spell-related damage should contribute towards BP generation
-    - Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage all count towards BP generation.
+    - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
         - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" />
         
-        Figure 1: Rune of Blood and a melee hit.
+        *Figure 1: Rune of Blood and a melee hit.*
 
 
 - In Heroic mode BP generation seems much faster compared to normal mode.
 
-There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. Specifically: 
+There are, however, conflicting or vague attempts at explaining the underlying mechanics of BP generation. For instance: 
 
 - Does "Absorbed" damage count towards BP generation?
     - An old comment suggests Absorbed damage would not count towards BP generation
@@ -44,10 +44,11 @@ There are, however, conflicting or vague attempts at explaining the underlying m
         - Patch 3.3.2 (2010-02-01): Mitigation abilities such as Spell holy powerwordshield [Power Word: Shield] will no longer prevent blood power generation.
     
 - Does "Mark" damage count towards BP generation?
-    - It is suggested mark damage (or the more "Mark" targets are out? subtle but important difference on tick damage vs pressence of the tick or debuff) increases BP generation over time.
-    
-        - Is this because damage "ramps up"? 
-        - Does it add 1 extra BP or is it 1 extra BP per tick? 
+    - It is suggested mark damage increases BP generation over time.
+        - Mark should not generate BP. Or does it? (Spoiler: It should not)
+        - Would it add 1 extra BP once or is it 1 extra BP per tick? 
+        - Is it because "more marks" are out? or because the longer the fight the more BP is passively generated?
+             - (Is there even such a thing as "passive BP" generation?)
     - Old patch notes suggest this should not be the case
         - Patch 3.3.2 (2010-02-01): Deathbringer Saurfang will no longer gain blood power from Mark of the Fallen Champion.
          
@@ -58,11 +59,13 @@ There are, however, conflicting or vague attempts at explaining the underlying m
     - It is also said it generates more BP based on how much damage each tick hits for, however, we know from looking at videos + log simultaneously [2] that the same boiling blood ticking for the same amount of damage went from giving 2 BP, to giving 3 BP. 
           - (E.g. Two consecutive ticks of 6,500 damage each giving 2 and 3 BP respectively)
       
-<img src="_img/Forum_comment_2010.png" />Figure 2: On the following document, this guy argument from 2010 will be utterly destroyed. 
+<img src="_img/Forum_comment_2010.png" />
+
+*Figure 2: On the following document, this guy argument from 2010 will be utterly destroyed.*
 
 ## Current Understanding
 
-It is usually agreed that out of all the 4 damaging abilities in the encounter that generate BP, Beast melees are usually the biggest source of it, in an order that goes:
+It is usually agreed upon that out of all the 4 damaging abilities in the encounter that generate BP, Blood Beast melees are usually the biggest source of it, and in order of "most to least BP generation", the list would go something like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
@@ -71,3 +74,4 @@ Attempts at accurately measuring BP generation usually rely on visualizing the b
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
+
