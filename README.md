@@ -14,7 +14,7 @@ Damage taken includes Absorbs and Overkill values. <br />
 ## 🌤Preamble
 
 We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. <br />
-We have a general idea of how the mechanic works based on its description, but we cannot precisely explain it or measure it in detail.
+We have a general idea of how the mechanic works based on its description, but we could not precisely explain it or measure it in detail.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang.
 
