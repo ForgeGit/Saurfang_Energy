@@ -17,6 +17,8 @@ We have a general idea of how the mechanic works, but we cannot explain it or me
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
 
+This approach can be used in logs uploaded to Warcraft Logs Classic to measure which abilities contributed the most towards BP generation in a single pull.
+
 For all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
@@ -74,4 +76,6 @@ Attempts at accurately measuring BP generation usually rely on visualizing the b
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
+
+
 
