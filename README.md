@@ -28,7 +28,6 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 ### **Introduction Tl,dr:** <br />
 Four abilities generate BP. Heroic mode Saurfang generates more BP (or faster BP) than normal mode Saurfang.<br />
 That is all we really think we know is true.
-### **End of  Tl,dr:**
 
 Commonly what we know about WoW game mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
@@ -37,12 +36,11 @@ More recently, with the first PTR test of ICC, we can now use detailed logs and 
 All of the sources previously mentioned coincide more or less on the following:
 
   1. Only spell-related damage should contribute towards BP generation
-      - This includes:
+      - These four (4) sources are all "spells casted by" Saurfang that deal physical type damage.
           - Boiling Blood (ID: 72385)
           - Rune of Blood (ID: 72409)
           - Blood Nova (ID: 72380)
           - Blood Beast melee hits (ID: 1)
-      - These four (4) sources are all "spells casted by" Saurfang that deal physical type damage.
       - Melee damage from the boss on the tanks should not contribute towards BP generation. 
           - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" /> <br />
