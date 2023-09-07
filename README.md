@@ -78,9 +78,11 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 <img src="_img/Forum_comment_2010.png" /> <br />
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
-## 📅Current Understanding
+With the upcoming ICC re-release, having a better understanding of how this mechanic work could potentially help raid teams progress faster the boss, specially with the potentially early tight DPS and healing checks it might have.
 
-### **Current Understanding Tl,dr:** <br />
+## 📅Previous Understanding
+
+### **Previous Understanding Tl,dr:** <br />
 > BP generation goes like: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood
 
 It is usually agreed upon that from the four (4) abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
