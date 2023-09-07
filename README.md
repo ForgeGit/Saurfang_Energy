@@ -18,7 +18,7 @@ We have a general idea of how the mechanic works based on its description, but w
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
 
-This approach can be used in logs uploaded to Warcraft Logs Classic to measure which abilities contributed the most towards BP generation in a single pull.
+This approach can be used in logs uploaded to Warcraft Logs Classic to analyze which abilities contributed the most towards BP generation.
 
 Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
@@ -114,3 +114,5 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/hits immune target counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence) 
+
+
