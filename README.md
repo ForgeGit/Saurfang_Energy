@@ -83,35 +83,40 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 ### **Current Understanding Tl,dr:** <br />
 > BP generation goes like: Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood
 
-It is usually agreed upon that out of all four (4) damaging abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
+It is usually agreed upon that from the four (4) abilities in the encounter that generate BP, Blood Beast melee hits are usually the biggest source of BP.
 
 In order of "most to least BP generation", the list would go like this:
 
   - Blood Beast melee > Blood Nova >= Blood Boiling tick >= Rune of Blood 
 
-We know this and we can also verify it by doing one of the following measurements.
+We can sort of confirm this by doing one of the following measurements.
 
 ### A. Basic log measurement 
 
 A common and simple method used to quickly give each ability a value or "weighting" is to add up the times each ability dealt damage and assume each of those hits gave a "fixed" amount of BP.
 
 <img src="_img/Saurfang_Energy_1.jpg" /> <br />
-*Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP*
+*Figure 3: Illustrated example of how many times each ability hit a player over a period of time. From here you would usually assume they all add up to at least 100 BP.*
 
-This method would normally place the value of Boiling Blood at 2-3 BP, Blood Nova at 2-3 BP, Rune of Blood at 1-3 BP, and Blood Beast melee at 2-18 BP (this wide range has varying explanations and causes for it, apparently explained by how "big" the hit was).
+This method would normally place the value of abilities as:
+
+- Boiling Blood 2-3 BP
+- Blood Nova at 2-3 BP
+- Rune of Blood at 1-3 BP
+- Blood Beast melee at 2-18 BP (the wide range has varying explanations and causes for it, apparently explained by how "big" or "hard" the hit was).
 
 <img src="_img/Saurfang_Energy_2.png" /> <br />
 *Figure 4: It works! Now try it with other logs, lmao.*
 
-The issue with this approach is that it won't work with all logs, and relies in adjusting (read: optimizing) your values to make them add up as close as possible to 100, with no clear rule or explanation, and either falling short of estimating 100 BP, or going well past 100 BP by the time the first mark goes out.
+The issue with this approach is that it won't work with all logs, and relies in adjusting <sup>(read: optimizing)</sup> your values to make them add up as close as possible to 100, with no clear rule or explanation. <br />
+This will usually result in the estimation either falling short of reaching 100 BP, or going well past 100 BP by the time the first mark goes out.
 
 <img src="_img/plot_saurfang_example1.png" /> <br />
-*Figure 5: Estimated BP at the moment of first mark cast on all PTR logs using the weights on the table of Figure 4. "Beast" numbers specify which value was used for Blood Beast melee hits weightings. Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 5: Estimated BP at the moment of first mark cast on all PTR logs using the weights on the table of Figure 4. "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ### B. In-Game Energy Bar Measurement
 
-A more accurate analysis of BP generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s.
-
+A more accurate analysis of BP generation relies on visualizing the boss energy bar in-game, which updates roughly every 3s.<br />
 This value directly provided by the game (but not registered in logs) can be used as our real value of reference.
 
 <img src="_img/Saurfang_energy_bar_ingame.jpg" /> <br />
@@ -128,9 +133,9 @@ Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed al
       - Vod #2: https://www.youtube.com/watch?v=BYIly4KoEqY&ab_channel=Oozeness 
 
 <img src="_img/Fightclub_cooking.jpg" /> <br />
-*Figure 7: Two Fight Club discord members cooking. On the left, Naz with LOG #1. On the right, Oozeness with LOG #2.*
+*Figure 7: Two Fight Club discord members cooking.<br /> On the left, Naz with LOG #1. On the right, Oozeness with LOG #2.*
 
-However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several of caveats and conditions that do not always apply.
+However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several of caveats and conditions that do not always apply to all cases.
 
 For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would look like this:
 
@@ -140,31 +145,34 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would lo
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
 
-The weightings proposed from using video recordings (which include Blood Nova misses as generating BP) would "overestimate" 100 BP on our previous example. In other words, going off this calculation Saurfang should have already casted Mark.
+The weightings proposed from using video recordings (which include Blood Nova misses as generating BP) would "overestimate" 100 BP on our previous example. <br />
+In other words, going off the values recorded in-game, Saurfang should have casted Mark some seconds earlier than what he did.
 
 <img src="_img/Saurfang_Energy_3.png" />
+*Figure 8: The estimation that works on one log, no longer works on the previous log. Sadge*
 
 ## 🔨The 2,500 damage methodology
 
-### **The 2,500 damage methodology Tl,dr:** <br />
-> 2,500 = 1 BP works better than numbers pulled out of our assess.
+### **The 2,500 damage methodology Tl,dr:** <br /><br />
+> 2,500 dmg = 1 BP works better than numbers pulled out of our assess.
 
 After sharing notes and ideas with `oozeness`, we came up with the following more generalized approach at estimating BP generation:
 
 
-Lets assume that BP is accumulated over time and it is not a rounded number as shown by the energy bar. (e.g. 0.53 energy, 3.10 energy, 7.9048 energy)
+Lets assume that BP is accumulated over time and it is not a rounded number as shown by the energy bar.<br />
+(e.g. 0.53 energy, 3.10 energy, 7.9048 energy)
 
-Using logs and the in-game energy bar, we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that same time.
+Using logs and the in-game energy bar from Log #1 and Log #2, we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that period of time.
 
 <img src="_img/Saurfang_Energy_4.jpg" /> <br />
-*Figure 8: Illustrated example of how damage taken was estimated every time the energy bar updated (3s intervals).*
+*Figure 9: Illustrated example of how damage taken was estimated every time the energy bar updated (3s intervals).*
 
-If we continue to do this for several points with Log #1 (Joardee) and Log#2 (Oozeness), we get a number that approximates ~2,500 damage per BP.
+If we continue to do this for several points using Log #1 (Joardee) and Log #2 (Oozeness) as reference, we get a number that approximates ~2,500 damage per BP.
 
-If we assume every **__2,500 damage = 1 energy__**, we can accurately match the values on both logs, and in every other log almost perfectly. 
+If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other log almost perfectly. 
 
 <img src="_img/plot_saurfang_example2.png" /> <br />
-*Figure 9: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. "Beast" numbers specify which value was used for Blood Beast melee hits weightings. Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ## 🔮Results 
 
