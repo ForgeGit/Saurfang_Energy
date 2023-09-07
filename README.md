@@ -16,7 +16,7 @@ We lack a precise, catch-all method to explain and measure Blood Power (energy) 
 
 We have a general idea of how the mechanic works based on its description, but we cannot explain it or measure it in detail.
 
-Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` explains very well the energy generation mechanics of Deathbringer Saurfang.
+Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the energy generation mechanics of Deathbringer Saurfang.
 
 This approach can be used in logs uploaded to Warcraft Logs Classic to analyze which abilities contributed the most towards BP generation.
 
@@ -27,7 +27,7 @@ Note: From now on, for all intents and purposes, I will refer to Energy on Saurf
 
 What we know about BP generation commonly comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1) or "common knowledge" shared in WoW related communities such as Class Discords. 
 
-More recently, with the first PTR test of ICC, we now have detailed log breakdowns and detailed video evidence to look into BP generation specifics.
+More recently, with the first PTR test of ICC, we can now use detailed logs and video recordings to look into the specifics of BP generation .
 
 All of the previous sources mentioned coincide more or less on the following:
 
@@ -122,5 +122,3 @@ For instance, using log #2 Wipe #3 (Oozeness 10 man) the weigthings would look l
   - Blood Rune damage: 2 BP
   - Blood Nova: 3 BP (possibly misses/immune hits counting)
   - Blood Beast melee: 1-3-4-8-9 (damage dealt + Scent of Blood buff presence seem to play a factor) 
-
-
