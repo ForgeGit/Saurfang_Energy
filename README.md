@@ -19,7 +19,7 @@ Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` expl
 
 This approach can be used in logs uploaded to Warcraft Logs Classic to measure which abilities contributed the most towards BP generation in a single pull.
 
-For all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
+Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
 ## Introduction
@@ -28,6 +28,7 @@ Common third-hand sources of information such as [WoWhead Comments](https://www.
 
 - Only spell-related damage should contribute towards BP generation
     - Boiling Blood, Rune of Blood, Blood Nova, and Blood Beast melee damage all count towards BP generation.
+        - They are all "spells casted by" Saurfang that deal physical type damage.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
         - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" />
@@ -76,6 +77,5 @@ Attempts at accurately measuring BP generation usually rely on visualizing the b
 <img src="_img/Saurfang_energy_bar_ingame.jpg" />Figure 3: In yellow, in-game energy bar of Saurfang on different UIs. The image on the right is Fojji's Weakaura displaying the Energy value separately from the Boss Frame.
 
 However, attempts at assigning a BP value to each damage taken from Saurfang have always resulted in inconsistent, non-preproduceable weigthings, that rely in a lot of caveats and conditions for one spell to fit the energy gains we see in-game. 
-
 
 
