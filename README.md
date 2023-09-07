@@ -29,6 +29,7 @@ Common third-hand sources of information such as [WoWhead Comments](https://www.
     - Melee damage from the boss on the tanks should not contribute towards BP generation. 
         - Unless it is a Rune of Blood hit, which is different than the standard melee hit.
         <img src="_img/BloodRune_damage.png" />
+        
         Figure 1: Rune of Blood and a melee hit.
 
 
