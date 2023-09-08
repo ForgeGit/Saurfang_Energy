@@ -223,7 +223,7 @@ More importantly, this method can be easily extrapolated to almost all logs to p
 
 ## 🔮Frequently Asked Questions
 
-- According to this, what generates 1 point of Blood Power/Energy?
+- According to this, what generates Blood Power/Energy?
 
   - Any `damage taken` by friendly units (character, pet, summon) + `Absorbed damage` + `Overkill` from one (1) of the following four (4) spells:
   
@@ -231,6 +231,8 @@ More importantly, this method can be easily extrapolated to almost all logs to p
       - Rune of Blood (ID: 72409)
       - Blood Nova (ID: 72380)
       - Blood Beast melee hits (ID: 1)
-      
+  - A total of `2,500 damage taken` is equal to more or less `1 Blood Power/Energy`
+  
+
 <img src="_img/Blood_Power_example_2.png" /> <br />
 *Figure 13: Example of damage that counts toward BP generation.* 
