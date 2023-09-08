@@ -167,7 +167,7 @@ Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed al
 
 However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several caveats and conditions that do not always apply to all cases.
 
-For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings would look like this <sup>[Supplement. 1]</sup>:
+For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings would look like this <sup>[Supplement. 1](https://github.com/ForgeGit/Saurfang_Energy/blob/main/supplementary_data/supp_1_log2_wipe3_oozeness_1.txt)</sup>:
 
   - Boiling Blood tick: 2-3-4 BP
   - Blood Rune application: 1 BP (inconsistent)
@@ -204,7 +204,7 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
-This method is further supported by matching and explaining the values seen by the in-game energy values <sup>[Supplement. 2]</sup>. 
+This method is further supported by matching and explaining the values seen by the in-game energy values <sup>[Supplement. 2](https://github.com/ForgeGit/Saurfang_Energy/blob/main/supplementary_data/supp_2_log2_wipe3_oozeness_2.txt)</sup> . 
 
 ### How can I check this by myself?
 
