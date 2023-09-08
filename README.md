@@ -1,4 +1,4 @@
-# 🩸Deathbringer Saurfang Blood Power generation mechanics🩸<br/>World of Warcraft Classic WoTLK
+# 🩸Deathbringer Saurfang🩸<br/>Blood Power generation mechanics<br/>*World of Warcraft Classic WoTLK*
 
 ## **SUMMARY**
 ### **Tl;dr**
