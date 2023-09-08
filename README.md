@@ -239,7 +239,7 @@ For normal mode, using `5,000 damage` works also fine.
       - Blood Nova (ID: 72380)
       - Blood Beast melee hits (ID: 1)
   - For Heroic Mode, `2,500 damage taken` is equal to more or less `1 Blood Power/Energy`
-  - For Normal Mode, `5,500 damage taken` is equal to more or less `1 Blood Power/Energy`
+  - For Normal Mode, `5,000 damage taken` is equal to more or less `1 Blood Power/Energy`
   
 
 <img src="_img/Blood_Power_example_2.png" /> <br />
