@@ -1,0 +1,267 @@
+
+
+Time:18 Energy:0
+
+Nova - 3
+Rune Application - 1 
+Time:21 Energy:4
+
+Blood tick - 2
+Time:24 Energy:6
+
+Blood tick - 2
+Time:27 Energy:8
+
+Time:30 Energy:8
+
+Rune damage - 2
+Time:33 Energy:10
+
+Time:36 Energy:10
+
+Time:39 Energy:10
+
+Rune Application - 1 
+Nova - 3
+Time:42 Energy:14
+
+Rune damage - 2
+Time:45 Energy:16
+
+Time:48 Energy:16
+
+Beast melee (+scent)- 9
+Time:51 Energy:25
+
+Blood tick - 2
+Time:54 Energy:27
+
+Blood tick - 2
+Time:57 Energy:29
+
+Blood tick - 2
+Nova (immune) - 2
+Nova - 3
+Time:1:00 Energy:36
+
+Time:1:03 Energy:36
+
+Rune Application - 1 (batched forward?)
+Time:1:06 Energy:36
+
+Blood tick - 2
+Time:1:09 Energy:39
+
+Blood tick - 2
+Time:1:12 Energy:41
+
+Blood tick - 3
+Time:1:15 Energy:44
+
+Blood tick - 3
+Time:1:18 Energy:47
+
+Nova (miss) - 2 (???)
+Nova - 3
+Blood tick - 3
+Time:1:21 Energy:54
+
+Blood tick - 3
+Time:1:24 Energy:57
+
+Rune Application - 1
+Beast melee - 4 (???)
+Rune damage - 2
+Blood tick - 3
+Time:1:27 Energy:67
+
+Blood tick - 3
+Time:1:30 Energy:70
+
+Blood tick - 3
+Time:1:33 Energy:73
+
+Blood tick - 4 (???)
+Time:1:36 Energy:77
+
+Nova (miss) - 0 (???)
+Nova (miss) - 0 (???)
+Time:1:39 Energy:77
+
+Blood tick - 3
+Time:1:42 Energy:80
+
+Blood tick - 4
+Time:1:45 Energy:84
+
+Rune Application - 1
+Rune damage - 2
+Blood tick - 4
+Time:1:48 Energy:91
+
+Blood tick - 4
+Time:1:51 Energy:95
+
+Blood tick - 4
+Time:1:54 Energy:99
+
+Time:1:57 Energy:99
+
+Nova (miss) - (???)
+Nova - (???)
+Blood tick - (???)
+Time:2:00 Energy:100
+
+Blood tick - 4
+Time:2:03 Energy:4
+
+Blood tick - 4
+Time:2:06 Energy:8
+
+Rune Application - 1
+Blood tick - 4
+Rune damage - 2
+Time:2:09 Energy:15
+
+Blood tick - 4
+Beast melee - 1 (???)
+Time:2:12 Energy:20
+
+Beast melee (+scent)- 8 (???)
+Beast melee (+scent)- 8 (???)
+Blood tick - 2
+Beast melee (+scent)- 8 (???)
+Time:2:15 Energy:46
+
+Nova - 3
+Blood tick - 2
+Beast melee (+scent)- 8 (???)
+Time:2:18 Energy:59
+
+Blood tick - 2
+Beast melee (+scent)- 8 (???)
+Time:2:21 Energy:69
+
+Blood tick - 3 (???)
+Time:2:24 Energy:72
+
+Blood tick - 2
+Time:2:27 Energy:74
+
+Rune Application - 1 (batched?)
+Time:2:30 Energy:74
+
+Blood tick - 3
+Time:2:33 Energy:77
+
+Blood tick - 3
+Time:2:36 Energy:80
+
+Nova - 3 (+2 ???)
+Blood tick - 3
+Time:2:39 Energy:88
+
+Blood tick - 3
+Time:2:42 Energy:91
+
+Blood tick - 4
+Time:2:45 Energy:95
+
+Blood tick - 4
+Time:2:48 Energy:99
+
+Rune Application - (???)
+Blood tick - (???)
+Time:2:51 Energy:100
+
+Blood tick - 4
+Time:2:54 Energy:4
+
+Blood tick - 4
+Nova - 3
+Time:2:57 Energy:11
+
+Blood tick - 3 (???)
+Time:3:00 Energy:14
+
+Blood tick - 3 (???)
+Time:3:03 Energy:17
+
+Blood tick - 2
+Time:3:06 Energy:19
+
+Blood tick - 2
+Time:3:09 Energy:21
+
+Rune Application - 1
+Blood tick - 2
+Time:3:12 Energy:24
+
+Blood tick - 2
+Time:3:15 Energy:26
+
+Nova (miss) - 1 (???)
+Nova - 3
+Time:3:18 Energy:30
+
+Blood tick - 3 
+Time:3:21 Energy:33
+
+Blood tick - 2 (???)
+Time:3:24 Energy:35
+
+Blood tick - 3
+Time:3:27 Energy:38
+
+Blood tick - 3
+Time:3:30 Energy:41
+
+Rune Application - 1 (batched forward?)
+Beast melee - 4 (???)
+Blood tick - 3
+Time:3:33 Energy:48
+
+Nova - 3
+Blood tick - 3
+Beast melee - 3 (???)
+Time:3:36 Energy:58
+
+Blood tick - 3
+Time:3:39 Energy:61
+
+Blood tick - 3
+Time:3:42 Energy:64
+
+Blood tick - 2 (???)
+Time:3:45 Energy:66
+
+Blood tick - 2 (???)
+Time:3:48 Energy:68
+
+Time:3:51 Energy:68
+
+Rune Application - 1
+Blood tick - 3
+Nova (miss) - 0 (???)
+Time:3:54 Energy:72
+
+Blood tick - 3
+Time:3:57 Energy:75
+
+Blood tick - 4 (???)
+Time:4:00 Energy:79
+
+Blood tick - 3
+Time:4:03 Energy:82
+
+Blood tick - 3
+Rune damage - 4 (???)
+Time:4:06 Energy:89
+
+Blood tick - 4
+Time:4:09 Energy:93
+
+Blood tick - 3
+Time:4:12 Energy:96
+
+Time:4:15 Energy:100

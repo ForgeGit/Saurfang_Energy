@@ -9,7 +9,7 @@ The following document goes in-depth describing how Blood Power generation works
 `2,500 damage taken = ~1 Blood Power` in Heroic Mode<br />
 Blood Power can be decimal (e.g 7.495 BP), and it accumulates over time. This formula explains Saurfang energy generation mechanics.
 
-In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
+In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than a fixed amount "tick" or "cast" based<sup>2</sup>.
 
 [1] *Damage Taken by friendly units.* <br />
         - *Friendly units include "pets" such as Army of the Death or Warlock summons.*<br />
@@ -165,9 +165,9 @@ Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed al
 <img src="_img/Fightclub_cooking.jpg" /> <br />
 *Figure 7: Two Fight Club discord members cooking.<br /> On the left, Naz with LOG #1. On the right, Oozeness with LOG #2.*
 
-However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several of caveats and conditions that do not always apply to all cases.
+However, attempts at assigning a BP value to each ability results in inconsistent, non-preproduceable weightings, that rely in several caveats and conditions that do not always apply to all cases.
 
-For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings [1] would look like this:
+For instance, using log #2 Wipe #3 (Oozeness 10 man) the weightings would look like this <sup>[Supplement. 1]</sup>:
 
   - Boiling Blood tick: 2-3-4 BP
   - Blood Rune application: 1 BP (inconsistent)
@@ -194,7 +194,7 @@ Lets assume that BP is accumulated over time and it is not a rounded number as s
 
 Using logs and the in-game energy bar from Log #1 and Log #2, we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that period of time.
 
-<img src="_img/Saurfang_Energy_4.jpg" /> <br />
+<img src="_img/Saurfang_Energy_4_2.jpg" /> <br />
 *Figure 9: Illustrated example of how damage taken was estimated every time the energy bar updated (3s intervals).*
 
 If we continue to do this for several points using Log #1 (Joardee) and Log #2 (Oozeness) as reference, we get a number that approximates ~2,500 damage per BP.
@@ -203,6 +203,8 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+
+This method is further supported by matching and explaining the values seen by the in-game energy values <sup>[Supplement. 2]</sup>. 
 
 ### How can I check this by myself?
 
@@ -216,7 +218,15 @@ The damage taken before the 1st mark goes out, and between marks, should add up 
 
 [WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
 
-The data used to generate the analysis and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).
+The data used to generate the analysis, graphics and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).<br/>
+It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR:
+
+- 4,773 Heroic Saurfang encounters for 1,227 logs
+    -	1709 Heroic 10 man			
+    - 3064 Heroic 25 man
+- 409 Normal Saurfang encounters for 397 logs
+    -	66 Normal 10 man			
+    - 343 Normal 25 man	
 
 In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfang (Y-axis) for 3 scenarios:
 

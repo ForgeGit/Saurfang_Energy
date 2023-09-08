@@ -1,0 +1,178 @@
+
+Time:18 Energy:0
+
+Blood tick - ?       [4250]
+Nova - 3             [7885]
+Rune Application - 1 
+Time:21 Energy:4     [12135/2500=4.854]
+
+Blood tick - 2       [4250]
+Time:24 Energy:6     [16385/2500=6.554]
+
+Blood tick - 2       [4250]
+Time:27 Energy:8     [20635/2500=8.254]
+
+Time:30 Energy:8
+
+Rune damage - 2      [5707]
+Time:33 Energy:10    [26342/2500=10.5368]
+
+Time:36 Energy:10
+
+Time:39 Energy:10
+
+Rune Application - 1 
+Nova - 3             [8922]
+Time:42 Energy:14    [35264/2500=14.1056]
+
+Rune damage - 2      [6661]
+Time:45 Energy:16    [41925/2500=16.77]
+
+Time:48 Energy:16
+
+Beast melee(+scent)-9 [20693]
+Time:51 Energy:25    [62618/2500=25.0472]
+
+Blood tick - 2       [6090]
+Time:54 Energy:27    [68708+6090=27.4832]
+
+Blood tick - 2       [6090]
+Time:57 Energy:29    [74798/2500=29.9192]
+
+Blood tick - 2       [6090]
+Nova (immune) - 2
+Nova - 3             [9817]
+Time:1:00 Energy:36  [90705/2500=36/282]
+
+Time:1:03 Energy:36
+
+Rune Application - 1 (batched forward?)
+Time:1:06 Energy:36
+
+Blood tick - 2       [6800]
+Time:1:09 Energy:39  [97505/2500=39.002]
+
+Blood tick - 2       [6800]
+Time:1:12 Energy:41  [104305/2500=41.722]
+
+Blood tick - 3       [6800]
+Time:1:15 Energy:44  [111105/2500=44.442]
+
+Blood tick - 3       [6800]
+Time:1:18 Energy:47  [117905/2500=47.162]
+
+Nova (miss) - 2 (???)
+Nova - 3             [11181]
+Blood tick - 3       [6800]
+Time:1:21 Energy:54  [135886/2500=54.3544]
+
+Blood tick - 3       [7718]
+Time:1:24 Energy:57  [143604/2500=57.4416]
+
+Rune Application - 1
+Beast melee - 4(???) [11390]
+Rune damage - 2      [6731]
+Blood tick - 3       [7717]
+Time:1:27 Energy:67  [169442/2500=67.7768]
+
+Blood tick - 3       [7718]
+Time:1:30 Energy:70  [177160/2500=70.864]
+
+Blood tick - 3       [7717]
+Time:1:33 Energy:73  [184877/2500=73.9508]
+
+Blood tick - 4 (???) [7717]
+Time:1:36 Energy:77  [192594/2500=77.0376]
+
+Nova (miss) - 0 (???)
+Nova (miss) - 0 (???)
+Time:1:39 Energy:77
+
+Blood tick - 3       [9292]
+Time:1:42 Energy:80  [2018886/2500=80.7544]
+
+Blood tick - 4       [9293]
+Time:1:45 Energy:84  [211179/2500=84.4716]
+
+Rune Application - 1
+Rune damage - 2      [9460]
+Blood tick - 4       [9293]
+Time:1:48 Energy:91  [229932/2500=91.9728]
+
+Blood tick - 4       [9292]
+Time:1:51 Energy:95  [239224/2500=95.6896]
+
+Blood tick - 4       [9292]
+Time:1:54 Energy:99  [248516/2500=99.4064]
+
+Time:1:57 Energy:99
+
+Nova (miss) - (???)
+Nova - (???)         [13682] <overcap 12198>
+Blood tick - (???)   [9950] <skip?>
+Time:2:00 Energy:100
+
+Blood tick - 4       [9950] <skip?>
+Time:2:03 Energy:4   ????[12198/2500=4.8792]
+
+Blood tick - 4       [9950]
+Time:2:06 Energy:8   [22148/2500=8.8592]
+
+Rune Application - 1
+Blood tick - 4       [9950]
+Rune damage - 2      [5749]
+Time:2:09 Energy:15  [37847/2500=15.1388]
+
+Blood tick - 4       [9950]
+Beast melee - 1(???) [3873] <Blocked 2328>
+Time:2:12 Energy:20  [51670/2500=20.668]
+
+Beast melee (+scent)- 8 (???) [20755]
+Beast melee (+scent)- 8 (???) [20400]
+Blood tick - 2                [5750]
+Beast melee (+scent)- 8 (???) [18107]
+Time:2:15 Energy:46   [116682/2500=46.6728]
+
+Nova - 3                      [11235]
+Blood tick - 2                [5750]
+Beast melee (+scent)- 8 (???) [15830] <Blocked 2328>
+Time:2:18 Energy:59   [149497/2500=59.7988]
+
+Beast melee (+scent)- 8 (???) [19582]
+Blood tick - 2                [5750]
+Time:2:21 Energy:69   [174829/2500=69.9316]
+
+Blood tick - 3 (???)  [5750]
+Time:2:24 Energy:72   [180579/2500=72.2316]
+
+Blood tick - 2        [5750]
+Time:2:27 Energy:74   [186329/2500=74.5316]
+
+Rune Application - 1 (batched?)
+Time:2:30 Energy:74
+
+Blood tick - 3        [6960]
+Time:2:33 Energy:77   [193289/2500=77.3156]
+
+Blood tick - 3        [6960]
+Time:2:36 Energy:80   [200249/2500=80.0996]
+
+Nova - 3 (+2 ???)     [12077]
+Blood tick - 3        [8700]
+Time:2:39 Energy:88   [221026/2500=88.4104]
+
+Blood tick - 3        [8700]
+Time:2:42 Energy:91   [229726/2500=91.8904]
+
+Blood tick - 4        [8700]
+Time:2:45 Energy:95   [238426/2500=95.3704]
+
+Blood tick - 4        [9550]
+Time:2:48 Energy:99   [247976/2500=99.1904]
+
+Rune Application - (???)
+Blood tick - (???)    [9950] <overcap 7926>
+Time:2:51 Energy:100
+
+Blood tick - 4        [9950]
+Time:2:54 Energy:4    ????[7926/2500=3.1704]

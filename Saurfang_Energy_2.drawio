@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T16:59:37.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="y92NqZD2nolBP0C6AQbQ" version="21.7.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-09-08T21:03:28.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="mDixDp5zeVERJHc1ub2j" version="21.7.2" type="device">
   <diagram name="Página-1" id="3vafuTlPAw6DXh7o1Bnj">
-    <mxGraphModel dx="828" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1200" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="ABTRls8zy6E2h-zhRWsx-5" value="Update #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="570" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ABTRls8zy6E2h-zhRWsx-7">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="ABTRls8zy6E2h-zhRWsx-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="520" as="targetPoint" />
           </mxGeometry>
@@ -27,56 +27,56 @@
         <mxCell id="ABTRls8zy6E2h-zhRWsx-7" value="x1 Blood Nova hits&lt;br&gt;7,708 damage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-3" value="&lt;b&gt;Example log #2 (Oozeness)&lt;/b&gt;&lt;br&gt;https://classic.warcraftlogs.com/reports/4aGYdP3kyBNchRQf#fight=10&amp;amp;type=damage-taken&amp;amp;options=0&amp;amp;by=ability" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-3" value="&lt;b&gt;Example log #2 (Oozeness)&lt;/b&gt;&lt;br&gt;https://classic.warcraftlogs.com/reports/4aGYdP3kyBNchRQf#fight=10&amp;amp;type=damage-taken&amp;amp;options=0&amp;amp;by=ability" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="15" y="370" width="635" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-11" value="Time:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;00:23&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;BP: 7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-11" value="Time:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;00:23&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;BP: 7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="360" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="519.66" as="sourcePoint" />
             <mxPoint x="360" y="519.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-13" value="Update #3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-13" value="Update #3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="570" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ukFftLrMRE7Wmc-4e1Tx-17">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="ukFftLrMRE7Wmc-4e1Tx-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-17" value="x2 Rune of Blood hits&lt;br&gt;10,787 damage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-17" value="x2 Rune of Blood hits&lt;br&gt;10,787 damage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-18" value="Time:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;00:23&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;BP: 14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-18" value="Time:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;00:26&lt;br&gt;BP: 14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="520" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="519.66" as="sourcePoint" />
             <mxPoint x="520" y="519.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-20" value="Update #3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-20" value="Update #3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="570" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ukFftLrMRE7Wmc-4e1Tx-22">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="ukFftLrMRE7Wmc-4e1Tx-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-22" value="x3 Rune of Blood hits&lt;br&gt;16,537 damage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-22" value="x3 Rune of Blood hits&lt;br&gt;16,537 damage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-23" value="7,708 dmg / 3 BP&amp;nbsp;&lt;br&gt;2,569 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-23" value="7,708 dmg / 3 BP&amp;nbsp;&lt;br&gt;2,569 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="600" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-24" value="10,787 dmg / 4 BP&amp;nbsp;&lt;br&gt;2,696 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-24" value="10,787 dmg / 4 BP&amp;nbsp;&lt;br&gt;2,696 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="345" y="600" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-25" value="16,537 dmg / 7 BP&amp;nbsp;&lt;br&gt;2,362 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukFftLrMRE7Wmc-4e1Tx-25" value="16,537 dmg / 7 BP&amp;nbsp;&lt;br&gt;2,362 dmg/BP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="502.5" y="600" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
