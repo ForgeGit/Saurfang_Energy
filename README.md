@@ -206,13 +206,13 @@ The damage taken before the 1st mark goes out, and between marks, should add up 
 
 [WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
 
+The data used to generate the analysis and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).
+
 In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfang (Y-axis) for 3 scenarios:
 
 - 2,500 damage (damage after mitigation/block + absorbed damage + overkill) = 1 energy
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
-
-The data used to generate the analysis and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).
 
 The 2,500 damage model is able to explain extreme log examples with mark going out extremely early (20s into the fight; one of the fastest mark recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
