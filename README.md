@@ -1,6 +1,6 @@
 # 🩸Deathbringer Saurfang🩸<br/>Blood Power generation mechanics<br/>
 
-_Vivax (Pagle-US) - Discfordge (Discord)_
+_Vivax (Pagle-US) -_ `Discfordge` _(Discord)_
 
 The following document goes in-depth describing how Blood Power generation works during the encounter with "Deathbringer Saurfang", final raid boss of the Lower Spire at Icecrown Citadel, in the Classic version of World of Warcraft: Wrath of the Lich King (2023).
 
@@ -252,8 +252,8 @@ For normal mode, using `5,000 damage` works also fine.
 *Figure 14: Example of damage that counts toward BP generation.* 
 
 
-## 🩸Fact Sheet
-
+## 🩸Fact Sheet<br />
+By "Naz" `overrated_` (Discord) - *Fight Club*
 
 🩸 Saurfang gains 1 Blood for every 2500 damage dealt by Saurfang's spells, or Blood Beast melee hits. 1 Blood for every 5000 damage in Normal modes.<br />
 🩸 Damage dealt by Mark of the Fallen Champion does not generate Blood.<br />
