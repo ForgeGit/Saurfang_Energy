@@ -250,8 +250,7 @@ For normal mode, using `5,000 damage` works also fine.
 ## 🩸Fact Sheet
 
 
-🩸 Saurfang gains 1 Blood for every 2500 damage dealt by Saurfang's spells, or Blood Beast melee hits.<br/>
-        🩸 1 Blood for every 5000 damage in Normal modes.<br />
+🩸 Saurfang gains 1 Blood for every 2500 damage dealt by Saurfang's spells, or Blood Beast melee hits. 1 Blood for every 5000 damage in Normal modes.<br />
 🩸 Damage dealt by Mark of the Fallen Champion does not generate Blood.<br />
 🩸 Damage dealt to pets counts - Army can be used >5s before the pull, so it disappears at 40s into the fight, when first beasts are summoned. Otherwise avoid using Army.<br />
 🩸 2500 damage is calculated after mitigation (e.g. Block a beast melee, BoP a Boiling Blood debuff, DSac the DoT/Nova, PS, etc).<br />
