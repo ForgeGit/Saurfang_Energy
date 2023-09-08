@@ -1,4 +1,4 @@
-# Deathbringer Saurfang energy generation mechanics - World of Warcraft: Classic WoTLK
+# 🩸Deathbringer Saurfang Blood Power generation mechanics🩸<br/>World of Warcraft Classic WoTLK
 
 ## **SUMMARY**
 ### **Tl;dr**
@@ -23,6 +23,7 @@ In this document I explain why this approach works better than other alternative
     4.1. [How can I check this by myself?](#how-can-i-check-this-by-myself)<br>
 5. [Results (WIP)](#results)<br>
 6. [FAQ](#frequently-asked-questions)<br>
+7. [Fact Sheet](#fact-sheet)<br>
 
 ## 🌤Preamble
 
@@ -228,7 +229,7 @@ For normal mode, using `5,000 damage` works also fine.
 <img src="_img/plot_saurfang_example_5.png" /> <br />
 *Figure 13: Normal mode estimation of BP at moment of 1st mark cast for Normal Mode.*
 
-## 🔮Frequently Asked Questions
+## ❓Frequently Asked Questions
 
 - According to this, what generates Blood Power/Energy?
 
@@ -244,3 +245,19 @@ For normal mode, using `5,000 damage` works also fine.
 
 <img src="_img/Blood_Power_example_2.png" /> <br />
 *Figure 14: Example of damage that counts toward BP generation.* 
+
+
+## 🩸Fact Sheet
+
+
+🩸 Saurfang gains 1 Blood for every 2500 damage dealt by Saurfang's spells, or Blood Beast melee hits - 1 Blood for every 5000 damage in Normal modes
+🩸 Damage dealt by Mark of the Fallen Champion does not generate Blood
+🩸 Damage dealt to pets counts - Army can be used >5s before the pull, so it disappears at 40s into the fight, when first beasts are summoned. Otherwise avoid using Army.
+🩸 2500 damage is calculated after mitigation (e.g. Block a beast melee, BoP a Boiling Blood debuff, DSac the DoT/Nova, PS, etc)
+🩸 2500 damage includes damage done to shields - PW:S does not reduce Blood generation (this is intended, noted in 2010 patch notes)
+🩸 2500 damage includes Overkill - clothies get doinked by beasts -> 20+ Blood generated on boss
+🩸 Saurfang's melee hits do not increase his Blood, but the Rune of Blood ability used when hitting tank-debuffed targets does generate Blood
+🩸 His damage increases with his current Blood level (+0% -> +100%), which increases his own Blood generation in turn
+
+Slowing the pace of blood generation with mitigation, means slowing the rate at which Marks come out.
+Mark of the Fallen Champion doesn't generate Blood, but Mark's damage does increase with current Blood level. Important to note this when balancing CDs between preventing Blood generation, and handling the increased Mark damage at high Blood levels.
