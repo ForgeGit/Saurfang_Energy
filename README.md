@@ -203,7 +203,7 @@ The damage taken before the 1st mark goes out, and between marks, should add up 
 
 ## 🔮Results 
 
-[WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually.]
+[WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
 
 In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfang (Y-axis) for 3 scenarios:
 
