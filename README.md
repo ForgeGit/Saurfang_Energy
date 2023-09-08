@@ -36,7 +36,7 @@ This approach can be used in logs uploaded to Warcraft Logs Classic to analyze w
 Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
-[1] Final raid boss of the Lower Spire at Icecrown Citadel.
+<sup>[1]</sup> *Deathbringer Saurfang, final raid boss of the Lower Spire at Icecrown Citadel.*
 
 ## 🐗Introduction
 
