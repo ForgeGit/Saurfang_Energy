@@ -211,12 +211,14 @@ In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfa
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
 
+The data used to generate the analysis and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).
+
 The 2,500 damage model is able to explain extreme log examples with mark going out extremely early (20s into the fight; one of the fastest mark recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
 
 It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs within a margin of +/- 1 BP. 
 
-More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy between marks.
+More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy generation between marks.
 
 <img src="_img/Blood_Power_example.png" /> <br />
 *Figure 12: In this log, mark went out at 1:36. <br /> 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable. <br /> Potentially more from Boiling Blood if defensives and cooldowns such as BoPs are optimized.* 
