@@ -197,17 +197,19 @@ In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfa
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
 
-The 2,500 damage model explains extreme logs were we see mark going out super early (20s into the fight): <br/>
+The 2,500 damage model also explains extreme log examples with mark going out extremely early (20s into the fight; the fastest mark going out recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
 
 It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs with a margin of +/- 1 BP. 
 
-More importantly, this method can be easily extrapolated to almost all logs.
+More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy between marks.
 
+<img src="_img/Blood_Power_example.png" /> <br />
+*Figure 12: In this log, mark went out at 1:36. 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable.* 
 
 ## 🔮Frequently Asked Questions
 
-- According to this, what generates 1 point of energy ?
+- According to this, what generates 1 point of Blood Power/Energy?
 
   - Any `damage taken` by friendly units (character, pet, summon) + `Absorbed damage` + `Overkill` from one (1) of the following four (4) spells:
   
@@ -216,3 +218,5 @@ More importantly, this method can be easily extrapolated to almost all logs.
       - Blood Nova (ID: 72380)
       - Blood Beast melee hits (ID: 1)
       
+<img src="_img/Blood_Power_example_2.png" /> <br />
+*Figure 13: Example of damage that counts toward BP generation.* 
