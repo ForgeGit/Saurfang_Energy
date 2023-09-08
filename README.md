@@ -12,9 +12,21 @@ Friendly units include "pets" such as Army of the Death or Warlock summons.<br /
 Damage taken includes Absorbs and Overkill values. <br />
 [2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
 
+# Table of Contents 📜
+
+1. [Preamble](#preamble)<br>
+2. [Introduction](#munching-the-dps-missing-from-your-ignite)<br>
+3. [Previous Understanding](#previous-understanding)<br>
+    3.1. [Basic Log Measurement](#a-basic-log-measurement)<br>
+    3.2. [In-game Energy Bar Measurement](#b-in-game-energy-bar-measurement)<br>
+4. [The 2,500 damage methodology](#the-2500-damage-methodology)<br>
+    4.1. [How can I check this by myself?](#how-can-i-check-this-by-myself)<br>
+5. [Results (WIP)](#results)<br>
+6. [FAQ](#frequently-asked-questions)<br>
+
 ## 🌤Preamble
 
-We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang, final raid boss of the Lower Spire at Icecrown Citadel. <br />
+We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Deathbringer Saurfang<sup>1</sup> <br />
 We have a general idea of how the mechanic works based on its description and feelscraft, but we could not precisely explain it or measure it in detail until now.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang.
@@ -24,11 +36,13 @@ This approach can be used in logs uploaded to Warcraft Logs Classic to analyze w
 Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
 
+[1] Final raid boss of the Lower Spire at Icecrown Citadel.
+
 ## 🐗Introduction
 
 ### **Introduction Tl,dr:** <br />
 > Four abilities generate BP. Heroic mode Saurfang generates more BP (or faster BP) than normal mode Saurfang.<br />
-> That is all we thought was true until now.
+> The specifics are beyond us.
 
 Commonly what we know about WoW game mechanics (in this case, Saurfang BP generation) comes from sites such as [WoWhead Comments](https://www.wowhead.com/wotlk/npc=37813/deathbringer-saurfang#comments), [WowPedia](https://wowpedia.fandom.com/wiki/Deathbringer_Saurfang), and [WoW-Wiki](https://wowwiki-archive.fandom.com/wiki/Deathbringer_Saurfang), with some of this information coming from "OG" [Blizzard Forum posts from 2010](https://web.archive.org/web/20100213045756/http://forums.worldofwarcraft.com/thread.html?topicId=22749002374&sid=1&pageNo=1), Elitist Jerks archives, or "common knowledge" shared in WoW communities such as Class Discords. 
 
@@ -159,7 +173,7 @@ In other words, going off the values recorded in-game, Saurfang should have cast
 ## 🔨The 2,500 damage methodology
 
 ### **The 2,500 damage methodology Tl,dr:** <br />
-> 2,500 dmg = 1 BP works better than numbers pulled out of our assess.
+> 2,500 dmg = 1 BP, a number sort of pulled out of my ass, works better than numbers pulled out of other assess.
 
 After sharing notes and ideas with `oozeness`, we came up with the following more generalized approach at estimating BP generation:
 
@@ -197,15 +211,15 @@ In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfa
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
 
-The 2,500 damage model also explains extreme log examples with mark going out extremely early (20s into the fight; the fastest mark going out recorded in PTR): <br/>
+The 2,500 damage model is able to explain extreme log examples with mark going out extremely early (20s into the fight; one of the fastest mark recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
 
-It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs with a margin of +/- 1 BP. 
+It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs within a margin of +/- 1 BP. 
 
 More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy between marks.
 
 <img src="_img/Blood_Power_example.png" /> <br />
-*Figure 12: In this log, mark went out at 1:36. 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable.* 
+*Figure 12: In this log, mark went out at 1:36. <br /> 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable. <br /> Potentially more from Boiling Blood if defensives and cooldowns such as BoPs are optimized.* 
 
 ## 🔮Frequently Asked Questions
 
