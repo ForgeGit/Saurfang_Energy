@@ -139,7 +139,7 @@ This will usually result in the estimation either falling short of reaching 100 
 
 We can use the "weighted values" from the Table above (Figure 4) on the 1,227 PTR logs from the 1st round of PTR testing and "estimate" Saurfang BP at the time of 1st mark going out on Figure 5. 
 
-Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed [one (1) log can have several encounters]
+Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed. <br />[one (1) log can have several encounters]
 
 <img src="_img/plot_saurfang_example1.png" /> <br />
 *Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
@@ -199,7 +199,7 @@ Using logs and the in-game energy bar from Log #1 and Log #2, we know how much e
 
 If we continue to do this for several points using Log #1 (Joardee) and Log #2 (Oozeness) as reference, we get a number that approximates ~2,500 damage per BP.
 
-If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other Heroic log almost perfectly. 
+If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other Heroic log almost perfectly (or at least with better precision than using some arbitrary fixed weight). 
 
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
