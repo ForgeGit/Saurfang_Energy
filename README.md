@@ -285,3 +285,9 @@ For normal mode, using `5,000 damage` works also fine.
 
 Slowing the pace of blood generation with mitigation, means slowing the rate at which Marks come out.<br />
 Mark of the Fallen Champion doesn't generate Blood, but Mark's damage does increase with current Blood level. Important to note this when balancing CDs between preventing Blood generation, and handling the increased Mark damage at high Blood levels.
+
+
+## Other(s)
+
+- Check other things I have done here: https://github.com/ForgeGit?tab=repositories
+
