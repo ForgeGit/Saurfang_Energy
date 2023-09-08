@@ -2,7 +2,7 @@
 
 ## **SUMMARY**
 ### **Tl;dr**
-`2,500 damage taken = ~1 Blood Power`<br />
+`2,500 damage taken = ~1 Blood Power` in Heroic Mode<br />
 Blood Power can be decimal (e.g 7.495 BP), and it accumulates over time. This formula explains Saurfang energy generation mechanics.
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
@@ -29,7 +29,7 @@ In this document I explain why this approach works better than other alternative
 We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Deathbringer Saurfang<sup>1</sup> <br />
 We have a general idea of how the mechanic works based on its description and feelscraft, but we could not precisely explain it or measure it in detail until now.
 
-Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang.
+Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang in Heroic Mode. For Normal Mode, one can use 5,000 damage taken.
 
 This approach can be used in logs uploaded to Warcraft Logs Classic to analyze which abilities contributed the most towards BP generation.
 
@@ -188,7 +188,7 @@ Using logs and the in-game energy bar from Log #1 and Log #2, we know how much e
 
 If we continue to do this for several points using Log #1 (Joardee) and Log #2 (Oozeness) as reference, we get a number that approximates ~2,500 damage per BP.
 
-If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other log almost perfectly. 
+If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other Heroic log almost perfectly. 
 
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
@@ -221,6 +221,11 @@ More importantly, this method can be easily extrapolated to almost all logs to p
 <img src="_img/Blood_Power_example.png" /> <br />
 *Figure 12: In this log, mark went out at 1:36. <br /> 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable. <br /> Potentially more from Boiling Blood if defensives and cooldowns such as BoPs are optimized.* 
 
+For normal mode, using `5,000 damage` works also fine.
+
+<img src="_img/plot_saurfang_example_5.png" /> <br />
+*Figure 13: Normal mode estimation of BP at moment of 1st mark cast for Normal Mode.*
+
 ## 🔮Frequently Asked Questions
 
 - According to this, what generates Blood Power/Energy?
@@ -231,8 +236,9 @@ More importantly, this method can be easily extrapolated to almost all logs to p
       - Rune of Blood (ID: 72409)
       - Blood Nova (ID: 72380)
       - Blood Beast melee hits (ID: 1)
-  - A total of `2,500 damage taken` is equal to more or less `1 Blood Power/Energy`
+  - For Heroic Mode, `2,500 damage taken` is equal to more or less `1 Blood Power/Energy`
+  - For Normal Mode, `5,500 damage taken` is equal to more or less `1 Blood Power/Energy`
   
 
 <img src="_img/Blood_Power_example_2.png" /> <br />
-*Figure 13: Example of damage that counts toward BP generation.* 
+*Figure 14: Example of damage that counts toward BP generation.* 
