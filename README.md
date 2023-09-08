@@ -1,6 +1,6 @@
 # 🩸Deathbringer Saurfang🩸<br/>Blood Power generation mechanics<br/>
 
-_Vivax (Pagle-US) - Forge#0001_
+_Vivax (Pagle-US) - Discfordge (Discord)_
 
 The following document goes in-depth on how I/we(?) think Blood Power generation works; core mechanic in the encounter "Deathbringer Saurfang", final raid boss of the Lower Spire at Icecrown Citadel, in the Classic version of World of Warcraft: Wrath of the Lich King.
 
