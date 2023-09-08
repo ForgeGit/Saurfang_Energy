@@ -1,4 +1,8 @@
-# 🩸Deathbringer Saurfang🩸<br/>Blood Power generation mechanics<br/>*World of Warcraft Classic WoTLK*
+# 🩸Deathbringer Saurfang🩸<br/>Blood Power generation mechanics<br/>
+
+_Vivax (Pagle-US) - Forge#0001_
+
+The following document goes in-depth on how I/we(?) think Blood Power generation works; core mechanic in the encounter "Deathbringer Saurfang", final raid boss of the Lower Spire at Icecrown Citadel, in the Classic version of World of Warcraft: Wrath of the Lich King.
 
 ## **SUMMARY**
 ### **Tl;dr**
@@ -27,9 +31,11 @@ In this document I explain why this approach works better than other alternative
 
 ## 🌤Preamble
 
-We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Deathbringer Saurfang<sup>1</sup>. It is not recorded in logs and previous attempts at measuring it have failed.
+We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Saurfang. It is not recorded in logs and previous attempts at measuring it have failed.
 
 We have a general idea of how the mechanic works based on its description and feelscraft, but we could not precisely explain it or measure it in detail until now.
+
+<img src="_img/Ability_Descr.jpg" /> <br />
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang in Heroic Mode. For Normal Mode, one can use 5,000 damage taken.
 
@@ -37,8 +43,6 @@ This approach can be used in logs uploaded to Warcraft Logs Classic to analyze w
 
 Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
 (A.K.A Runic Power, Blood Energy, Blood Points). 
-
-<sup>[1]</sup> *Deathbringer Saurfang, final raid boss of the Lower Spire at Icecrown Citadel.*
 
 ## 🐗Introduction
 
