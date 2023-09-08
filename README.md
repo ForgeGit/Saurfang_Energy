@@ -139,7 +139,7 @@ This will usually result in the estimation either falling short of reaching 100 
 
 We can use the "weighted values" from the Table above (Figure 4) on the 1,227 PTR logs from the 1st round of PTR testing and "estimate" Saurfang BP at the time of 1st mark going out on Figure 5. 
 
-Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed. <br />[one (1) log can have several encounters]
+Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed. Most estimated BP values are sligthly above the 110-100 range, and the values are quite spread around the 100 BP line. <br />
 
 <img src="_img/plot_saurfang_example1.png" /> <br />
 *Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
@@ -219,7 +219,7 @@ The damage taken before the 1st mark goes out, and between marks, should add up 
 [WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
 
 The data used to generate the analysis, graphics and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).<br/>
-It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR:
+It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR <sup>one (1) log can have several encounters</sup>:
 
 - 4,773 Heroic Saurfang encounters for 1,227 logs
     -	1709 Heroic 10 man			
