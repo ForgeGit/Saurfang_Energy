@@ -2,7 +2,7 @@
 
 _Vivax (Pagle-US) - Discfordge (Discord)_
 
-The following document goes in-depth on how I/we(?) think Blood Power generation works; core mechanic in the encounter "Deathbringer Saurfang", final raid boss of the Lower Spire at Icecrown Citadel, in the Classic version of World of Warcraft: Wrath of the Lich King.
+The following document goes in-depth describing how Blood Power generation works during the encounter with "Deathbringer Saurfang", final raid boss of the Lower Spire at Icecrown Citadel, in the Classic version of World of Warcraft: Wrath of the Lich King (2023).
 
 ## **SUMMARY**
 ### **Tl;dr**
