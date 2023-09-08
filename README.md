@@ -134,10 +134,13 @@ This method would normally place the value of abilities as:
 *Figure 4: It works! Sort of. Now try it with other logs, lmao.*
 
 The issue with this approach is that it won't work with all logs, and relies in adjusting <sup>(read: optimizing)</sup> your values to make them add up as close as possible to 100, with no clear rule or explanation. <br />
+
 This will usually result in the estimation either falling short of reaching 100 BP, or going well past 100 BP by the time the first mark goes out.
 
+We can use the weighted values on the 1,227 PTR logs from the 1st round of PTR testing to see the "esstimated" BP at the time of 1sst mark going out on Figure 4.
+
 <img src="_img/plot_saurfang_example1.png" /> <br />
-*Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ### B. In-Game Energy Bar Measurement
 
@@ -197,7 +200,7 @@ If we continue to do this for several points using Log #1 (Joardee) and Log #2 (
 If we assume every `2,500 damage` equals `1 BP`, we can accurately match the values on both logs, and in every other Heroic log almost perfectly. 
 
 <img src="_img/plot_saurfang_example_2.png" /> <br />
-*Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
+*Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
 ### How can I check this by myself?
 
