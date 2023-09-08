@@ -79,7 +79,7 @@ There are, however, conflicting or vague attempts at explaining the underlying m
 <img src="_img/Forum_comment_2010.png" /> <br />
 *Figure 2: On the following document, this guy argument from 2010 stating BP gains are "consistent" will be utterly destroyed.*
 
-With the upcoming ICC re-release, having a better understanding of this mechanic could potentially help raid teams on progression, specially with the potentially early tight DPS and healing checks it might have.
+With the upcoming ICC re-release, having a better understanding of how BP generation works could help optimize better the encounter, which is specially relevant during the first few weeks with [potentially tight DPS and healing checks for some raid teams.](https://github.com/ForgeGit/ICC_PTR/blob/main/_img/final_image_25_10_wing_title.jpg)
 
 ## 📅Previous Understanding
 
@@ -179,7 +179,7 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast. Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
-### How can I check this?
+### How can I check this by myself?
 
 You should be able to check for your own logs with the following options. (Highlighted in blue) <br />
 The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
@@ -203,3 +203,16 @@ https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-d
 It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs with a margin of +/- 1 BP. 
 
 More importantly, this method can be easily extrapolated to almost all logs.
+
+
+## 🔮Frequently Asked Questions
+
+- According to this, what generates 1 point of energy ?
+
+  - Any `damage taken` by friendly units (character, pet, summon) + `Absorbed damage` + `Overkill` from one (1) of the following four (4) spells:
+  
+      - Boiling Blood (ID: 72385)
+      - Rune of Blood (ID: 72409)
+      - Blood Nova (ID: 72380)
+      - Blood Beast melee hits (ID: 1)
+      
