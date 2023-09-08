@@ -208,18 +208,20 @@ This method is further supported by matching and explaining the values seen by t
 
 ### How can I check this by myself?
 
-You should be able to check for your own logs with the following options. (Highlighted in blue) <br />
-The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
+You should be able to check for your own logs with the following options. <br />
+(Highlighted in light blue)
 
 <img src="_img/energy_yourself_2.png" /> <br />
 *Figure 11: Example of how to filter and see the values that generate BP in logs* 
+
+The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
 
 ## 🔮Results 
 
 [WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
 
 The data used to generate the analysis, graphics and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).<br/>
-It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR <sup>one (1) log can have several encounters</sup>:
+It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR <sup>[one (1) log can have several encounters]</sup>:
 
 - 4,773 Heroic Saurfang encounters for 1,227 logs
     -	1709 Heroic 10 man			
@@ -234,10 +236,12 @@ In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfa
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
 
-The 2,500 damage model is able to explain extreme log examples with mark going out extremely early (20s into the fight; one of the fastest mark recorded in PTR): <br/>
+The 2,500 damage model is able to explain logs with very unusual mark timings. <br/>For instance, it is able to perfectly explain why this mark went out in 20s (one of the earliest marks publicly recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
 
-It also explains pets such as Army of the Death getting hit by Blood Beasts, and other logs within a margin of +/- 1 BP. 
+It also explains damage dealt to pets such as Army of the Death from Blood Beast melee hits.
+
+So far, we have been able to estimate 100 BP at time of mark cast within a margin of +/- 1 to 2 BP. 
 
 More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy generation between marks.
 
