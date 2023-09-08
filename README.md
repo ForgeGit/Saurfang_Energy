@@ -7,10 +7,10 @@ Blood Power can be decimal (e.g 7.495 BP), and it accumulates over time. This fo
 
 In this document I explain why this approach works better than other alternatives proposed to measure energy generation on Saurfang, and suggest energy generation is entirely damage based<sup>1</sup>, rather than "tick" or "cast" based<sup>2</sup>.
 
-[1] Damage Taken by friendly units. <br />
-Friendly units include "pets" such as Army of the Death or Warlock summons.<br />
-Damage taken includes Absorbs and Overkill values. <br />
-[2] Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.
+[1] *Damage Taken by friendly units.* <br />
+        - *Friendly units include "pets" such as Army of the Death or Warlock summons.*<br />
+        - *Damage taken includes Absorbs and Overkill values.* <br />
+[2] *Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.*
 
 # Table of Contents 📜
 
