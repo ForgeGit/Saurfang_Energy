@@ -27,7 +27,8 @@ In this document I explain why this approach works better than other alternative
 
 ## 🌤Preamble
 
-We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Deathbringer Saurfang<sup>1</sup>. It is not recorded in logs and previous attempts at measuring it have failed.<br/>
+We lack a precise, catch-all method to explain and measure Blood Power (energy) generation on Deathbringer Saurfang<sup>1</sup>. It is not recorded in logs and previous attempts at measuring it have failed.
+
 We have a general idea of how the mechanic works based on its description and feelscraft, but we could not precisely explain it or measure it in detail until now.
 
 Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we can explain very well the Blood Power generation mechanics of Deathbringer Saurfang in Heroic Mode. For Normal Mode, one can use 5,000 damage taken.
