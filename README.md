@@ -253,7 +253,7 @@ For normal mode, using `5,000 damage` works also fine.
 
 
 ## 🩸Fact Sheet<br />
-By "Naz" `overrated_` (Discord) - *Fight Club*
+*By "Naz"* `overrated_` *(Discord) - Fight Club*
 
 🩸 Saurfang gains 1 Blood for every 2500 damage dealt by Saurfang's spells, or Blood Beast melee hits. 1 Blood for every 5000 damage in Normal modes.<br />
 🩸 Damage dealt by Mark of the Fallen Champion does not generate Blood.<br />
