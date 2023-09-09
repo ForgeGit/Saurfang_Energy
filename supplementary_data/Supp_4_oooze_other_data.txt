@@ -1,0 +1,143 @@
+Wipe 1
+
+Blood Nova - 3 (7,708)
+Time:0:20 Energy:3 (7,708)
+
+Rune of blood damage - 2 (5452)
+Rune of blood damage - 2 (5335)
+Time:0:23 Energy:7 (18,495)
+
+Rune of blood damage - 2 (5728)
+Rune of blood damage - 2 (4554)
+Rune of blood damage - 2 or 3??? (6255 dmg)
+Rune of Blood application 1????- extremely batched foward? lol
+Time:0:26 Energy:14 (35,032)
+
+Rune of blood damage - 2 (5478)
+Time:0:29/30 Energy:16
+
+Rune of blood damage - 2 or 3???? (7167 dmg)
+Rune of blood damage - 2 (5834)
+Time:0:33 Energy:21
+
+Rune of blood damage - 2 (5525)
+Time:0:36 Energy:23
+
+
+
+Rune of blood damage - 2 (6381 dmg)
+
+
+
+Blood Nova - 3
+Rune of blood damage - 2 (6729 dmg)
+Time:0:39 Energy:28
+
+
+Rune of Blood application 1????
+Rune of blood damage - 2 or 3????? (7663 dmg)
+Time:0:42 Energy:32
+
+
+####################################################
+
+
+
+Wipe 3
+
+Time:18 Energy:0
+
+Boiling Blood - 1 (4,250) (A:4,250)
+Blood Nova - 3 (7,885) (A:7,885)
+Time:21 Energy: 4 (12,135) (A:12,135)
+
+Boiling Blood tick - 2 (4,250)
+Time:24 Energy: 6 (16,385)
+
+Boiling Blood tick - 2 - 2 (4,250)
+Time:27 Energy:8 (20,635)
+
+Time:30 Energy:8 (20,635)
+
+Rune of blood damage - 2 (5,707)
+Time:33 Energy:10 (26,342)
+
+Time:36 Energy:10 (26,342)
+
+Time:39 Energy:10 (26,342)
+
+Blood Nova - 3 (8,922)
+Time:42 Energy:14 (35,264)
+
+Rune of blood damage - 2 (6,661)
+Time:45 Energy:16 (41,925)
+
+Time:48 Energy:16 (41,925)
+
+Beast melee (+scent)- 9 (20,693)
+Time:51?? Energy:25? (62,618?)
+
+Boiling Blood tick - 2 (6,090)
+Time:54 Energy:27 (68,708) 
+
+Blood tick - 2 (6,090)
+Time:57 Energy:29 (80,888)
+
+Blood tick - 2 (6,090)
+Nova (immune) - 2 (0)
+Nova - 3 (9,817)
+Time:1:00 Energy:36 (90,705)
+
+Time:1:03 Energy:36
+
+Rune Application - 1 (batched forward?)
+Time:1:06 Energy:36
+
+Blood tick - 2 (6,800) 
+Time:1:09 Energy:39 (97,505)
+
+Blood tick - 2 (6,800) 
+Time:1:12 Energy:41 (104,305)
+
+Blood tick - 3 (6,800) 
+Time:1:15 Energy:44 (111,105)
+
+Blood tick - 3 (6,800) 
+Time:1:18 Energy:47 (117,905)
+
+Nova (miss) - 2 (???)
+Nova - 3 (11,181)
+Blood tick - 3 (6,611) (A: 6,800)
+Time:1:21 Energy:54 (135,697) (A: 6,800)
+
+Blood tick - 3 (7,513) (A: 7,718)
+Time:1:24 Energy:57 (145,686)
+
+Rune Application - 1
+Beast melee - 4 (???)
+Rune damage - 2
+Blood tick - 3
+Time:1:27 Energy:67
+
+Blood tick - 3
+Time:1:30 Energy:70
+
+Blood tick - 3
+Time:1:33 Energy:73
+
+Blood tick - 4 (???)
+Time:1:36 Energy:77
+
+Nova (miss) - 0 (???)
+Nova (miss) - 0 (???)
+Time:1:39 Energy:77
+
+Blood tick - 3
+Time:1:42 Energy:80
+
+
+
+
+
+
+
