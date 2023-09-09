@@ -1,0 +1,110 @@
+Nova x1
+Boiling x3
+---------
+Energy 9 0:20
+
+Boiling x3
+---------
+Energy 15 0:23
+
+Boiling x3
+---------
+Energy 20 0:26
+
+Boiling x3
+---------
+Energy 26 0:29
+
+Boiling x3
+---------
+Energy 32 0:32
+
+Nothing 0
+---------
+Energy 32 0:35
+
+Boiling x1
+---------
+Energy 35 0:38
+
+Nova x1
+Boiling x1
+---------
+Energy 42 0:41
+
+Boiling x1
+---------
+Energy 44 0:44
+
+Boiling x1
+---------
+Energy 47 0:47
+
+Boiling x1
+---------
+Energy 49 0:50
+
+Boiling x3
+Beast Melee x1
+---------
+Energy 80 0:53
+
+Boiling x3
+---------
+Energy 89 0:56 
+
+Boiling x3
+Nova x2
+---------
+Energy 100+ 0:59
+
+1:01.418 mark goes out
+
+Boiling x3
+---------
+Energy 9 1:02 (8?)
+
+Boiling x3
+Rune of Blood
+---------
+Energy 19 1:05 (18.7?)
+
+Boiling x3
+---------
+Energy 25 1:08 (24.7?)
+
+Boiling x2
+---------
+Energy 29 1:11 (28.7?)
+
+Boiling x2
+---------
+Energy 33 1:14 (33.0148?)
+
+Boiling x2
+Nova x1
+---------
+Energy 42 1:17 (41.85?)
+
+Boiling x2
+---------
+Energy 46 1:20 (45.85?)
+
+Boiling x3
+---------
+Energy 54 1:23 (53.85?)
+
+Rune of Blood x1
+Boiling x3
+Beast Melee x1
+---------
+Energy 69 1:26 (68.34?)
+
+Boiling x3
+---------
+Energy 77 1:29 (76.186?)
+
+beast melee x2
+Boiling x3
+---------
+Energy 100+ 1:32 (98.414?) 

@@ -139,7 +139,7 @@ This will usually result in the estimation either falling short of reaching 100 
 
 We can use the "weighted values" from the Table above (Figure 4) on the 1,227 PTR logs from the 1st round of PTR testing and "estimate" Saurfang BP at the time of 1st mark going out on Figure 5. 
 
-Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed. Most estimated BP values are sligthly above the 110-100 range. The values seem to be spread around the 100 BP line. <br />
+Figure 5 shows the estimated BP (Y-axis) at the time the first mark was cast for each encounter analyzed. Most estimated BP values are sligthly above the 110-100 range. The values for Heroic-25m (left) reach the 125+ BP ranges. <br />
 
 <img src="_img/plot_saurfang_example1.png" /> <br />
 *Figure 5: Estimated BP at the moment of first mark cast for all PTR logs with Saurfang encounters using the weights on the table of Figure 4. <br />"Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
@@ -152,7 +152,7 @@ This value directly provided by the game (but not registered in logs) can be use
 <img src="_img/Saurfang_energy_bar_ingame.jpg" /> <br />
 *Figure 6: In yellow, the energy bar (BP) of Saurfang seen in-game from different UIs. The image on the right is a Weakaura/Addon displaying the Energy value separately from the Boss Frame.*
 
-Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed along with to their recordings by `overrated_` and `oozeness`.
+Using this method, two Saurfang Heroic logs (25 man and 10 man) were analyzed along with their recordings by `overrated_` and `oozeness`.
 
   - **LOG #1** Joardee <Fusion> Saurfang Heroic 25 man:
       - Log #1: https://classic.warcraftlogs.com/reports/4aGYdP3kyBNchRQf#fight=10&type=damage-taken&options=0&by=ability
@@ -190,9 +190,9 @@ After sharing notes and ideas with `oozeness`, we came up with the following mor
 
 
 Lets assume that BP is accumulated over time and it is not a rounded number as shown by the energy bar.<br />
-(e.g. 0.53 energy, 3.10 energy, 7.9048 energy)
+(e.g. It could be 0.53 energy, 3.10 energy, 7.9048 energy)
 
-Using logs and the in-game energy bar from Log #1 and Log #2, we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that period of time.
+Using logs and the in-game energy bar simultaneously for Log #1 (Joardee) and Log #2 (Oozeness), we know how much energy was generated every 3s, and we can check how much damage was taken by friendly units during that period of time.
 
 <img src="_img/Saurfang_Energy_4_2.jpg" /> <br />
 *Figure 9: Illustrated example of how damage taken was estimated every time the energy bar updated (3s intervals).*
@@ -204,7 +204,7 @@ If we assume every `2,500 damage` equals `1 BP`, we can accurately match the val
 <img src="_img/plot_saurfang_example_2.png" /> <br />
 *Figure 10: Estimated BP at the moment of first mark cast on all PTR logs comparing different approaches at estimating BP. <br /> "Beast" numbers specify which value was used for Blood Beast melee hits weightings.<br />Shaded red area is the range from 90 to 110 BP estimated at first mark cast.<br />Blue dotted lines indicate the  150 BP and 75 BP marks.* 
 
-This method is further supported by matching and explaining the values seen by the in-game energy values <sup>[Supplement. 2](https://github.com/ForgeGit/Saurfang_Energy/blob/main/supplementary_data/supp_2_log2_wipe3_oozeness_2.txt)</sup> . 
+Detailed 3s by 3s energy bar updates on Log #1 and Log #2 can be found at: <sup>[Supplement. 2](https://github.com/ForgeGit/Saurfang_Energy/blob/main/supplementary_data/supp_2_log2_wipe3_oozeness_2.txt)</sup> and <sup>[Supplement. 3](https://github.com/ForgeGit/Saurfang_Energy/blob/main/supplementary_data/supp_3_log1_kill_joardee_1.txt)</sup>. 
 
 ### How can I check this by myself?
 
