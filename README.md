@@ -232,9 +232,11 @@ It contains a total of 5,182 encounters and 1,441 unique logs from the first rou
 
 In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfang (Y-axis) for 3 scenarios:
 
-- 2,500 damage (damage after mitigation/block + absorbed damage + overkill) = 1 energy
-- Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
-- Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
+- 2,500 damage (damage after mitigation/block + absorbed damage + overkill) = 1 BP
+- Weighted (Beast=3):
+    - Blood Nova=3 BP; Boiling Blood=3 BP; Rune of Blood= 1 BP;Blood Beast Melee= 3BP
+- Weighted (Beast=3):
+    - Blood Nova=3 BP; Boiling Blood=3 BP; Rune of Blood= 1 BP;Blood Beast Melee= 5 BP
 
 <img src="_img/Summary_stats.png" /><br />
 *Figure 12: Summary statistics of the data present in Figure 10.* 
@@ -251,10 +253,10 @@ More importantly, this method can be easily extrapolated to almost all logs to p
 <img src="_img/Blood_Power_example.png" /> <br />
 *Figure 12: In this log, mark went out at 1:36. <br /> 7.44 BP from Rune of Blood and 32.28 BP from Blood Beasts should be preventable. <br /> Potentially more from Boiling Blood if defensives and cooldowns such as BoPs are optimized.* 
 
-For normal mode, using `5,000 damage` works also fine.
+For normal mode, using `5,000 damage` the results are similar. In other words, BP generation is twice as slow compared to heroic mode.
 
 <img src="_img/plot_saurfang_example_5.png" /> <br />
-*Figure 13: Normal mode estimation of BP at moment of 1st mark cast for Normal Mode.*
+*Figure 13: Estimation of BP at moment of 1st mark cast for Normal Mode Saurfang.*
 
 ## ❓Frequently Asked Questions
 
