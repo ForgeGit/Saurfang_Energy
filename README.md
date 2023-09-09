@@ -25,7 +25,7 @@ In this document I explain why this approach works better than other alternative
     3.2. [In-game Energy Bar Measurement](#b-in-game-energy-bar-measurement)<br>
 4. [The 2,500 damage methodology](#the-2500-damage-methodology)<br>
     4.1. [How can I check this by myself?](#how-can-i-check-this-by-myself)<br>
-5. [Results (WIP)](#results)<br>
+5. [Detailed Results](#detailed-results)<br>
 6. [FAQ](#frequently-asked-questions)<br>
 7. [Fact Sheet](#fact-sheet)<br>
 
@@ -41,8 +41,8 @@ Here I describe how using the formula `2,500 damage taken = ~1 Blood Power` we c
 
 This approach can be used in logs uploaded to Warcraft Logs Classic to analyze which abilities contributed the most towards BP generation.
 
-Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
-(A.K.A Runic Power, Blood Energy, Blood Points). 
+<sup>Note: From now on, for all intents and purposes, I will refer to Energy on Saurfang as Blood Power or BP.
+(A.K.A Runic Power, Blood Energy, Blood Points).</sup>
 
 ## 🐗Introduction
 
@@ -216,12 +216,12 @@ You should be able to check for your own logs with the following options. <br />
 
 The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
 
-## 🔮Result Details 
+## 🔮Detailed Results 
 
-Results are summarized in Figure 10 (above) and in the entire [2,500 damage methodology section](#the-2500-damage-methodology).
+Results are summarized in Figure 10 (above) and in the entire ["2,500 damage methodology section"](#the-2500-damage-methodology).
 
 The data used to generate the analysis, graphics and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).<br/>
-It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR <sup>[one (1) log can have several encounters]</sup>:
+It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR<br/><sup>[*Note:*one (1) log can have several encounters]</sup>:
 
 - 4,773 Heroic Saurfang encounters for 1,227 logs
     -	1709 Heroic 10 man			
