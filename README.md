@@ -216,9 +216,9 @@ You should be able to check for your own logs with the following options. <br />
 
 The damage taken before the 1st mark goes out, and between marks, should add up to at least 249k-ish.
 
-## 🔮Results 
+## 🔮Result Details 
 
-[WORK IN PROGRESS - The result is summarized in Figure 10. However, I want to better describe the results here, eventually. Maybe?]
+Results are summarized in Figure 10 (above) and in the entire [2,500 damage methodology section](#the-2500-damage-methodology).
 
 The data used to generate the analysis, graphics and results can be found [in this repository](https://github.com/ForgeGit/Saurfang_Energy/blob/main/Saurfang_BP_Data.csv).<br/>
 It contains a total of 5,182 encounters and 1,441 unique logs from the first round of ICC PTR <sup>[one (1) log can have several encounters]</sup>:
@@ -235,6 +235,9 @@ In figure 10, we estimated the energy at the time of the 1st mark cast by Saurfa
 - 2,500 damage (damage after mitigation/block + absorbed damage + overkill) = 1 energy
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 3
 - Static weights being Nova=3, Boiling Blood=3, Rune Blood hit = 1, Melee Beast = 5
+
+<img src="_img/Summary_stats.png" /><br />
+*Figure 12: Summary statistics of the data present in Figure 10.* 
 
 The 2,500 damage model is able to explain logs with very unusual mark timings. <br/>For instance, it is able to perfectly explain why this mark went out in 20s (one of the earliest marks publicly recorded in PTR): <br/>
 https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-done&hostility=1&source=101&start=6260520&end=6278616&options=256&ability=72380
