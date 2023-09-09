@@ -246,7 +246,7 @@ https://classic.warcraftlogs.com/reports/7Bv1rbpYxzCmPDKV#fight=27&type=damage-d
 
 It also explains damage dealt to pets such as Army of the Death from Blood Beast melee hits.
 
-So far, we have been able to estimate 100 BP at time of mark cast within a margin of +/- 1 to 2 BP. 
+So far, we have been able to estimate 100 BP at time of mark cast within a margin of +/- 1 BP when compared to in-game measurements. 
 
 More importantly, this method can be easily extrapolated to almost all logs to precisely understand what contributed to Blood Energy generation between marks.
 
