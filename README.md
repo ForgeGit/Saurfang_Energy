@@ -299,7 +299,8 @@ Mark of the Fallen Champion doesn't generate Blood, but Mark's damage does incre
 
 ## Other analysis and random stuff
 
-- If you have questions, you can contact me on discord: https://discord.gg/wp55kqmyYG (Discord: Discfordge) or check Fight Club for specific discussions surrounding this analysis: https://discord.gg/RbCZJtw
+- If you have questions, you can contact me on discord: https://discord.gg/wp55kqmyYG (Discord: Discfordge) <br />
+- Or check Fight Club for specific discussions surrounding this analysis: https://discord.gg/RbCZJtw
 
 - Consider buying me a coffee? :) https://ko-fi.com/forge
 
