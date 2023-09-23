@@ -297,7 +297,10 @@ Slowing the pace of blood generation with mitigation, means slowing the rate at 
 Mark of the Fallen Champion doesn't generate Blood, but Mark's damage does increase with current Blood level. Important to note this when balancing CDs between preventing Blood generation, and handling the increased Mark damage at high Blood levels.
 
 
-## Other(s)
+## Other analysis and random stuff
 
-- Check other things I have done here: https://github.com/ForgeGit?tab=repositories
+- If you have questions, you can contact me on discord: https://discord.gg/wp55kqmyYG (Discord: Discfordge) or check Fight Club for specific discussions surrounding this analysis: https://discord.gg/RbCZJtw
 
+- Consider buying me a coffee? :) https://ko-fi.com/forge
+
+- Or check other things I have done here: https://github.com/ForgeGit?tab=repositories
