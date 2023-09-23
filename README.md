@@ -17,7 +17,7 @@ In this document I explain why this approach works better than other alternative
 [2] *Valid sources of damage are Boiling Blood, Rune of Blood, Blood Nova, and Beast melee damage.*
 
 
-[⬇️Jump to a more comprenhensive summary and implications for your raid📊](#fact-sheet-)<br/>
+[⬇️Jump to a more comprenhensive summary and implications for your raid📊](#fact-sheet)<br/>
 or<br/>
 Keep reading`¯\_ (ツ)_/¯`
 
